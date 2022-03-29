@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="4.941 0 23 23">
+      <image preserveAspectRatio="xMidYMid slice" width="36.653" height="23" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAD7BAMAAAC21d/SAAAAMFBMVEX/0QD/zwD/zAD+ywDzxgfgvRG8rCZYfGBKdWlCcW0eYIILV40AUpMAUJUATpgATJojEHk9AAABQElEQVR42u3awQnCUBBF0WkhWoGxAhOwBUHbEDuxiBRiCe5iJxI7MO7Fj4uPs5BzCxg4zPbFWNPtsuw/1u3vY24BAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8jvIVNPjWoQ8p9ziVNWxL7Q9JRd1LUqQVWTX/0kgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIO+Qtqp16W7XJhdNVcW91qZJLoaqzoWXdLshuZirKm4aD3Ny5rIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3sBu7IqWkj1L7kAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <g id="flag-400" stroke="#fff" stroke-width="1" fill="url(#pattern)">
+    <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+    <circle cx="11.5" cy="11.5" r="11" fill="none"/>
+  </g>
+</svg>
