@@ -1,9 +1,7 @@
 $bg: #451E41;
 $borderRed: 1rem;
 
-html {
-  min-height: 52.75rem;
-}
+
 
 body {
   margin: 0 !important;
@@ -85,14 +83,21 @@ body {
   display: flex;
   justify-content: center;
 
-  #visamer {
+  .visamer {
 
     color: $bg;
     font-size: 3rem;
     border-bottom: solid $bg;
+    margin-bottom: 3rem;
 
   }
 }
-.hidden {
-  visibility: hidden;
+#hidden {
+  display: none;
+  margin-top: -11rem;
+  height: 0%;
+}
+
+.first {
+  visibility: visible;
 }

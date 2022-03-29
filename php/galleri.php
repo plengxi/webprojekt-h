@@ -1,10 +1,18 @@
 <link rel="stylesheet" href="../css/galleri.min.css">
 
 <script type="text/javascript">
-function show() {
-  document.getElementsByClassName('hidden').style.visibility = 'visible'
+function show()
+{
+  document.getElementById('hidden').style.display = 'block';
+  document.getElementById('first').style.visibility = 'hidden';
+
 }
 
+function hide() {
+  document.getElementById('hidden').style.display = 'none';
+  document.getElementById('first').style.visibility = 'visible';
+
+}
 </script>
 
 <div class=".goldbandContainer">
@@ -35,23 +43,33 @@ function show() {
 
 </div>
 
-<div class="firstpics hidden">
+<div href="#" id="visamercontainer">
 
-
-<img class="pics" src="../img/tidning.jpg" alt="artikel">
-<img class="pics" src="../img/room2.jpg" alt="room">
-<img class="pics" src="../img/fotnerver.jpeg" alt="fotnerver">
-<img class="pics" src="../img/room2.3.jpg" alt="room">
-<img class="pics" src="../img/handgjordakort.jpg" alt="presentkort">
-<img class="pics" src="../img/handduksvan.jpg" alt="svan">
-<img class="pics" src="../img/olja3.jpg" alt="oljor">
-<img class="pics" src="../img/kvittot.jpeg" alt="kvittot">
-<img class="pics" src="../img/certificat1.jpg" alt="certificate">
+    <a type="button" class="visamer" id="first" onclick="show()">Visa mer</a>
 
 </div>
 
-<div id="visamercontainer">
+<div id="hidden">
 
-    <a id="visamer" onclick="show()">Visa mer</a>
+  <div  class="firstpics" >
+
+    <img class="pics" src="../img/tidning.jpg" alt="artikel">
+    <img class="pics" src="../img/room2.jpg" alt="room">
+    <img class="pics" src="../img/fotnerver.jpeg" alt="fotnerver">
+    <img class="pics" src="../img/room2.3.jpg" alt="room">
+    <img class="pics" src="../img/handgjordakort.jpg" alt="presentkort">
+    <img class="pics" src="../img/handduksvan.jpg" alt="svan">
+    <img class="pics" src="../img/olja3.jpg" alt="oljor">
+    <img class="pics" src="../img/kvittot.jpeg" alt="kvittot">
+    <img class="pics" src="../img/certificat1.jpg" alt="certificate">
+
+</div>
+
+
+<div href="#" id="visamercontainer" class="second">
+
+  <a type="button" class="visamer" onclick="hide()">Visa mindre</a>
+
+</div>
 
 </div>
