@@ -1,8 +1,12 @@
 
 <link rel="stylesheet" href="../css/prislista.min.css">
 
+<section>
+
+
+
 <div class="goldbandContainer">
-  <img id="goldband" src="../svg/goldband.svg" alt="goldband">
+  <div id="goldband"></div>
 </div>
 
 
@@ -18,31 +22,31 @@
 
 <div class="pris">
 
-    <jp class="move" style="font-size: 1.7rem;">Helkroppsmassage</jp>
-      <kp style="font-size: 1.7rem;">400 kr/60 min</kp>
+    <h2 class="move">Helkroppsmassage</h2>
+      <h2>400 kr/60 min</h2>
       <line></line><noline></noline>
 
 
-    <lp class="move" style="font-size: 1.7rem;">Fotmassage<br>(Reflexology)</lp>
-      <zp style="font-size: 1.7rem;">300 kr/45 min</zp>
+    <h2 class="move">Fotmassage<br>(Reflexology)</h2>
+      <h2>300 kr/45 min</h2>
       <line></line><noline></noline>
 
-    <xp class="move" style="font-size: 1.7rem;">Oljemassage<br>(Bara ryggen)</xp>
-      <vp style="font-size: 1.7rem;">300 kr/45 min</vp>
+    <h2 class="move">Oljemassage<br>(Bara ryggen)</h2>
+      <h2>300 kr/45 min</h2>
       <line></line><noline></noline>
 
-    <bp class="move" style="font-size: 1.7rem;">Ansiktsbehandling</bp>
-      <np style="font-size: 1.7rem;">300 kr/45 min</np>
+    <h2 class="move">Ansiktsbehandling</h2>
+      <h2>300 kr/45 min</h2>
       <line></line><noline></noline>
 
-      <noline></noline><mp>**Kvitto finns</mp>
+      <noline></noline><h2>**Kvitto finns</h2>
 
 
   </div>
 
-  <div class="bg">
+  <!--<div class="bg">
     <img src="../svg/prislistabg2.svg" alt="">
-  </div>
+  </div>-->
 
 <div class="giftcontainer">
 
@@ -52,7 +56,7 @@
 
 <div class="nummbercontainer">
 
-  <p id="nummber"><span style="color:#F5CB3C; ">Köp presentkort</span> till din nära <br> och kära via SMS: <span style="color:#F5CB3C; ">070 573 0330</span> </p>
+  <p id="nummber"><span style="color:#F5CB3C; ">Köp presentkort</span> till din nära och kära via SMS: <span style="color:#F5CB3C; ">070 573 0330</span> </p>
 
 </div>
 
@@ -74,3 +78,4 @@
   </div>
 
 </div>
+</section>

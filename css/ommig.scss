@@ -27,36 +27,37 @@ margin-top:0.6rem;
   .flower {
     position: absolute;
     top: 1rem;
-    right: -10rem;
-    width: 36rem;
+    right: -5rem;
+    width: 16rem;
 
     &:nth-child(1) {
-      left: -10rem;
+      left: -5rem;
     }
 }
 }
 
-
+.ommigheadflex {
+  margin-bottom: 15%;
 
 .ommigHeadlineAndPic {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
-  padding-right: 7rem;
-  padding-left: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 10%;
+  padding-left: 10%;
   margin-bottom: -6rem;
   margin-top: 18rem;
 
+
   .profile{
-    width:50%;
+    width:100%;
   }
 
   #ommigHeadline {
-    font-size: 100px;
-    margin-top: 30%;
+    font-size: 2.063rem;
+    margin-top: 60%;
 
   }
+}
 
 }
 
@@ -78,13 +79,13 @@ section,#ommigText {
   margin-top: 3rem;
 
   #Hej {
-    font-size: 3.5rem;
+
     padding-left: -1rem;
     margin-bottom: 0rem;
 }
 
   p {
-    font-size: 2rem;
+
     max-width: 86%;
 
 
@@ -92,7 +93,7 @@ section,#ommigText {
 
   #ommigheadlineUtbildning {
     padding-left: -10rem;
-    font-size: 2.5rem;
+
 
   }
   }
@@ -108,12 +109,13 @@ section,#ommigText {
 
       h3 {
         padding-left: 0rem;
-        font-size: 2.5rem;
+        font-size: 2.063rem;
+
       }
 
       p {
         margin-left: 5%;
-        font-size: 2.5rem;
+
       }
 
     }
@@ -126,12 +128,11 @@ section,#ommigText {
 
       h3 {
         padding-left: 0rem;
-        font-size: 2.5rem;
       }
 
       p {
         margin-left: 5%;
-        font-size: 2.5rem;
+
       }
 
     }
@@ -151,7 +152,7 @@ section,#ommigText {
     img {
     margin-bottom: 0rem;
     z-index: 200;
-    width: 10rem;
+    width: 7rem;
     }
 
   }
