@@ -12,51 +12,172 @@ height: 1rem;
 
 .footer{
   color:white;
-  text-align: center;
+//  text-align: center;
   background-color: $firstcolor;
   padding:1rem 0 0 0;
 }
 
 .sec1{
+  text-align: center;
   h1{
     color:white;
     margin-top: 0;
     font-size: 2.188rem;
     letter-spacing: 0.26256rem;
     margin-top:1rem;
+    height: fit-content;
   //  text-decoration: underline;
   }
   p{
-    margin-top:0rem;
+    margin-top:1rem;
+    margin-bottom: 2rem;
     font-size: 1.25rem;
+    letter-spacing: 0.15rem;
   }
 }
 
+.linepris {
+  height: 3px;
+  max-width:16.495rem;
+  background: white;
+  border-radius: 3px;
+  margin-top:-0.5rem;
+}
 
+.head{
+  display:grid;
+  justify-content: center;
+}
 
 .sec2{
+
   h3{
-    font-size: 1.375rem;
-    margin-bottom: 0rem;
+    text-align: center;
+    font-size: 1.25rem;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+    margin-top:-0.5rem;
   }
 }
 
 form{
   display: grid;
 //  grid-template-rows: 1fr 1fr 1fr;
-  .till{
-    display:inline-block;
-  }
-  .från{
-    display:inline-block;
+label{
+font-weight: bold;
+font-size: 1.25rem;
+letter-spacing: 0.15rem;
+}
+
+.till {
+  display: flex;
+  align-items: center;
+
+  #till{
+    margin-left: 0.5rem;
+    width: -webkit-fill-available;
+    border-radius: 0.813rem;
+    background-color: #575757;
+    border:0.188rem solid #424242;
+    color: #3E3E3E;
+    font-size: 0.8rem;
+    min-height: 2rem;
+    text-align: center;
   }
 }
 
+textarea#frågor{
+  border-radius: 0.813rem;
+  border:0.188rem solid #424242;
+  color: #3E3E3E;
+  padding:1rem;
+}
+
+.but{
+  text-align: center;
+  margin-top:1rem;
+  #buttn{
+    background-color: #55184F; //brighter purple
+    color: white;
+    border-radius: 0.75rem;
+    width: 8rem;
+    height:2.3rem;
+    border:0.188rem solid white;
+  }
+  #buttn:hover{
+    background-color: #716167; //purpledust
+  }
+  #buttn:active{
+    background-color: #4CAF50;
+  }
+}
+
+}
+
 .ram{
-  background-color: yellow;
+  background-color: $secondcolor;
   border-radius: 0.938rem;
   border:3px solid white;
   margin-left: 1rem;
   margin-right: 1rem;
   padding:1rem;
+}
+
+
+
+
+.sec3{
+  text-align: center;
+  display: grid;
+  justify-content: center;
+    h2{
+      font-size: 1.25rem;
+      letter-spacing: 0.15rem;
+      word-spacing: 0.2rem;
+      margin-bottom: 0rem;
+      margin-top:2rem;
+    }
+    p{
+      margin-top:0.5rem;
+      font-size: 1.25rem;
+      letter-spacing: 0.15rem;
+      word-spacing: 0.2rem;
+    }
+}
+
+.mapouter{
+  text-align: center;
+
+    .gmap_canvas{
+      border:0.188rem solid $secondcolor;
+      border-radius: 0.75rem;
+    }
+}
+
+
+
+.logofoot{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+  margin-top:2rem;
+}
+
+.end{
+display: grid;
+justify-content: center;
+  .linecopyright{
+    height: 0.125rem; //2px
+    max-width:100%;
+    background: $secondcolor;
+    border-radius: 3px;
+    margin-top:2rem;
+  }
+  p{
+    font-weight: lighter;
+    font-size: 0.625rem;
+    letter-spacing: 0.075rem;
+    word-spacing: 0.1rem;
+  }
 }

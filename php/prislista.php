@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="../css/prislista.min.css">
+<!-- <link rel="stylesheet" href="../css/prislista.min.css"> -->
 
 <div class="goldbandContainer">
   <img id="goldband" src="../svg/goldband.svg" alt="goldband">

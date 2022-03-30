@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
   <g id="Group_53" data-name="Group 53" transform="translate(-315 -558)">
-    <circle id="Ellipse_5" data-name="Ellipse 5" cx="34" cy="34" r="34" transform="translate(315 558)" fill="rgba(85,24,79,0.62)"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="34" cy="34" r="34" transform="translate(315 558)" fill="#f5cb3c"/>
     <path id="Icon_material-arrow-upward" data-name="Icon material-arrow-upward" d="M6,18l2.115,2.115,8.385-8.37V30h3V11.745l8.37,8.385L30,18,18,6Z" transform="translate(331.5 574.5)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </g>
 </svg>
