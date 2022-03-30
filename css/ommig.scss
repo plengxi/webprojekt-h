@@ -1,6 +1,11 @@
 $ommigcolor: #E7DFE6;
 $firstcolor : #451E41;
 
+#ommigs {
+  z-index: 10;
+  background-color: white;
+}
+
 body {
   margin: 0 !important;
 }
@@ -26,7 +31,7 @@ margin-top:0.6rem;
 
   .flower {
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     right: -5rem;
     width: 16rem;
 
@@ -146,7 +151,7 @@ section,#ommigText {
   .dots {
     display: flex;
     justify-content: center;
-    padding-bottom: 12rem;
+    padding-bottom: -7rem;
 
 
     img {

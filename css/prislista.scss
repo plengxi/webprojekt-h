@@ -2,14 +2,18 @@
 $bg: #451E41;
 $borderRed: 1rem;
 
-section {
+section#priss {
+background-image: url('../svg/purplebg.svg');
+background-size: cover;
+overflow: hidden;
+background-repeat: no-repeat;
 
 }
 
 body {
   margin: 0 !important;
   color: white;
-  
+
 
 }
 
@@ -81,9 +85,9 @@ body {
 
 .bg {
   z-index: -3;
-  background-color: $bg;
+  //background-color: $bg;
   position: absolute;
-  top: 3rem;
+  top: 0rem;
   width: 100%;
 
 

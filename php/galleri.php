@@ -15,7 +15,7 @@ function hide() {
 }
 </script>
 
-<div class=".goldbandContainer">
+<div id="topgal" class=".goldbandContainer">
 
   <img id="goldband" style=" width: 100%; " src="../svg/goldband.svg" alt="goldband">
 

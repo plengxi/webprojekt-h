@@ -1,3 +1,5 @@
+<section id="ommigs">
+
 
 <link rel="stylesheet" href="../css/ommig.min.css">
 
@@ -46,7 +48,7 @@
 
 </div>
 
-<div class="dots">
+<div id="pristop" class="dots">
   <img src="../svg/dots.svg" alt="dots">
 </div>
 
@@ -55,3 +57,5 @@
 
 
 </div>
+
+</section>

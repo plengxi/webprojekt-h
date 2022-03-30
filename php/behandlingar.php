@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../css/behandlingar.min.css">
 
-<div class="g">
+<div id="topbeh" class="g">
   <div class="goldband"></div>
 
 <div class="behandlingar">
