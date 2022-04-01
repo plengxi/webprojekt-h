@@ -7,6 +7,10 @@ $textspace : 0.1rem;
 //Letter spacing (tracking)>>0.12 times the font size;
 //Word spacing >>0.16 times the font size.
 
+#heas {
+  background-color: $firstcolor;
+}
+
 //----------Landingpage+meny!!!
 div.logobar {
   position: fixed !important;

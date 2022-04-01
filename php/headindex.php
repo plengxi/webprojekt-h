@@ -1,5 +1,7 @@
 <body>
 <head>
+  <section id="heas">
+
   <link rel="stylesheet" href="../css/headindex.min.css">
 
   <script type="text/javascript">
@@ -46,4 +48,5 @@ Känslor som du aldrig har haft innan.</p>
     </div>
 
 <img class="decor" src="../svg/thaidecor.svg" alt="decoration">
+</section>
 </head>
