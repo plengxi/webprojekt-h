@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="../css/behandlingar.min.css">
 
+<section id="behs">
+
+
+
 <div id="topbeh" class="g">
   <div class="goldband"></div>
 
@@ -43,3 +47,5 @@ man öka en persons ungdomlighet samtidigt behandlar hud på ett naturligt sätt
 
 
 </div>
+
+</section>

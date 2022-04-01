@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="../css/galleri.min.css">
 
+<section id="gals">
+
+
+
 <script type="text/javascript">
 function show()
 {
@@ -17,7 +21,7 @@ function hide() {
 
 <div id="topgal" class=".goldbandContainer">
 
-  <img id="goldband" style=" width: 100%; " src="../svg/goldband.svg" alt="goldband">
+  <div class="goldband"></div>
 
 </div>
 
@@ -73,3 +77,5 @@ function hide() {
 </div>
 
 </div>
+
+</section>

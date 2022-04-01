@@ -1,5 +1,5 @@
 
-<!-- <link rel="stylesheet" href="../css/prislista.min.css"> -->
+<link rel="stylesheet" href="../css/prislista.min.css">
 
 <div class="goldbandContainer">
   <div id="goldband"></div>
@@ -42,10 +42,6 @@
 
   </div>
 
-<!--  <div class="bg">
-    <img src="../svg/purplebg.svg" alt="">
-  </div>-->
-
 <div class="giftcontainer">
 
   <img id="presentkort" src="../img/giftcard_11zon.jpg" alt="presentkort">
@@ -54,7 +50,7 @@
 
 <div class="nummbercontainer">
 
-  <p id="topboka" id="nummber"><span style="color:#F5CB3C; ">Köp presentkort</span> till din nära och kära via SMS: <span style="color:#F5CB3C; ">070 573 0330</span> </p>
+  <p id="nummber"><span style="color:#F5CB3C; ">Köp presentkort</span> till din nära och kära via SMS: <span style="color:#F5CB3C; ">070 573 0330</span> </p>
 
 </div>
 
