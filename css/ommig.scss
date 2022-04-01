@@ -17,9 +17,8 @@ margin: 0;
 padding: 0;
 font-family: 'Poppins', sans-serif;
 font-family: 'Sorts Mill Goudy', serif;
-overflow: hidden;
+//overflow: hidden;
 box-sizing: border-box;
-margin-top:0.6rem;
 
 .flowersContainer {
   display: flex;
@@ -47,20 +46,22 @@ margin-top:0.6rem;
 .ommigHeadlineAndPic {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-right: 10%;
-  padding-left: 10%;
-  margin-bottom: -6rem;
-  margin-top: 18rem;
-
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-bottom: -7rem;
+  margin-top: 10rem;
+  z-index: 99;
+align-items: end;
+justify-items:end;
 
   .profile{
     width:100%;
   }
 
   #ommigHeadline {
-    font-size: 2.063rem;
-    margin-top: 60%;
-
+    font-size: 2.813rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -77,81 +78,90 @@ section,#ommigText {
   padding-left: 5%;
   padding-right: 5%;
   background-color: white;
-  padding-bottom: 5rem;
-  margin-bottom: -6rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
 
   div,#pageDiv {
   margin-top: 3rem;
 
   #Hej {
-
-    padding-left: -1rem;
+    margin-top:1.5rem;
     margin-bottom: 0rem;
+    font-size: 1.375rem; //22px
+    letter-spacing: 0.14rem;
+    color:#55184F;
 }
 
   p {
-
-    max-width: 86%;
-
-
+    max-width: 100%;
+    font-size: 1.063rem;
+    letter-spacing: 0.12756rem;
+    word-spacing: 0.17008rem;
+    line-height: 1.5945rem;
+    margin-top:0.8rem;
+    margin-bottom:2rem;
+    word-break: break-all;
+    text-align: justify;
+text-justify: inter-word;
   }
 
   #ommigheadlineUtbildning {
-    padding-left: -10rem;
-
-
-  }
+    font-size: 1.25rem;
+    color:#55184F;
+    }
   }
   .Branch {
   display: space-between;
   flex-flow: column wrap;
-  max-width: 80%;
+  max-width: 100%;
 
     .row1 {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       padding-left: 0rem;
+      margin-top:-3rem;
+      font-size: 1.063rem;
+      letter-spacing: 0.12756rem;
+      word-spacing: 0.17008rem;
+      line-height: 1.5945rem;
 
-      h3 {
+      h2 {
         padding-left: 0rem;
-        font-size: 2.063rem;
-
+        color:#55184F;
       }
 
       p {
-        margin-left: 5%;
-
+        padding-left:0.5rem;
       }
 
     }
 
     .row2 {
       display: flex;
-      align-items: center;
-      padding-left: 0rem;
+      align-items: flex-start;
+      margin-top:-2rem;
+      font-size: 1.063rem;
+      letter-spacing: 0.12756rem;
+      word-spacing: 0.17008rem;
+      line-height: 1.5945rem;
+      color:#55184F;
 
-
-      h3 {
-        padding-left: 0rem;
+      h2 {
+        color:#55184F;
       }
 
       p {
-        margin-left: 5%;
-
+        padding-left:0.5rem;
       }
 
     }
-
-
-
-
-
   }
 
   .dots {
     display: flex;
     justify-content: center;
-    padding-bottom: -7rem;
+  padding-bottom: 5rem;
+  margin-top:1rem;
 
 
     img {

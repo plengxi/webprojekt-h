@@ -9,6 +9,7 @@ $textspace : 0.1rem;
 
 #heas {
   background-color: $firstcolor;
+  min-height:35.5rem;
 }
 
 //----------Landingpage+meny!!!
@@ -100,7 +101,7 @@ ul{
     .flaggor{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
       width: 40%;
       margin-left: 30%;
