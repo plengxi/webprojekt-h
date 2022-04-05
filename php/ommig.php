@@ -32,8 +32,8 @@
 
     <h2 id="ommigheadlineUtbildning">Utbildning</h2>
     <p>Fullständigt avslutad på kursen i <br>Thailändsk
-      Traditionellt Medicin <br>på The Ayurvedig
-      Association of <br>Thailand, Bangkok Thailand.</p>
+      Traditionellt Medicin på<br> The Ayurvedig
+      Association of Thai-<br>land, Bangkok Thailand.</p>
 
       <div class="Branch">
         <div class="row1">
