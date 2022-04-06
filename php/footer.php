@@ -41,6 +41,7 @@
 <div class="linecopyright"></div>
 <p>© 2022 Darunees Thaimassage, Fryxellgatan 76, 662 35 Åmål</p>
 </div>
+
 </div>
 </body>
 </html>

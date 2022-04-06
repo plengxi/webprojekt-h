@@ -8,6 +8,7 @@
   <div class="goldband"></div>
 
 <div class="behandlingar">
+
   <div class="head">
   <h1><span style="color:#F5CB3C; font-size:3.438rem;">B</span>ehandlingar</h1>
 <div class="line"></div>

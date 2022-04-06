@@ -21,7 +21,7 @@ height: 1rem;
   text-align: center;
   h1{
     color:white;
-    margin-top: 0;
+    margin-bottom:0.3rem;
     font-size: 2.188rem;
     letter-spacing: 0.26256rem;
     margin-top:1rem;
@@ -84,6 +84,9 @@ letter-spacing: 0.15rem;
     font-size: 0.8rem;
     min-height: 2rem;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: 0.05rem;
   }
 }
 
@@ -92,11 +95,15 @@ textarea#frågor{
   border:0.188rem solid #424242;
   color: #3E3E3E;
   padding:1rem;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 .but{
   text-align: center;
   margin-top:1rem;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Sorts Mill Goudy', serif;
   #buttn{
     background-color: #55184F; //brighter purple
     color: white;
@@ -132,7 +139,8 @@ textarea#frågor{
   display: grid;
   justify-content: center;
     h2{
-      font-size: 1.25rem;
+      color: $secondcolor;
+      font-size: 1.65rem;
       letter-spacing: 0.15rem;
       word-spacing: 0.2rem;
       margin-bottom: 0rem;
@@ -164,20 +172,23 @@ textarea#frågor{
   margin-top:2rem;
 }
 
+
 .end{
-display: grid;
-justify-content: center;
-  .linecopyright{
-    height: 0.125rem; //2px
-    max-width:100%;
-    background: $secondcolor;
-    border-radius: 3px;
-    margin-top:2rem;
-  }
-  p{
-    font-weight: lighter;
-    font-size: 0.625rem;
-    letter-spacing: 0.075rem;
-    word-spacing: 0.1rem;
-  }
+  display:grid;
+  justify-content: center;
+  justify-items: center;
+  margin-top:2rem;
+        .linecopyright {
+          height: 3px;
+          min-width: 100%;
+          background: #F4CB3C;
+          border-radius: 3px;
+        }
+        p{
+          font-weight: lighter;
+          font-size: 0.625rem;
+          letter-spacing: 0.075rem;
+          word-spacing: 0.1rem;
+          }
+
 }

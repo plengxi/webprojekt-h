@@ -25,33 +25,29 @@ body {
   }
 }
 
-.headlinecontainer h1{
-  font-size:2.188rem;
-  color: $bg;
-  margin-bottom: 0;
-  height: 4rem;
-}
-
-.headline {
-  display: flex;
+//------head
+.galcontainer{
+  display:grid;
   justify-content: center;
-  align-items: baseline;
-  color: white;
-  position: relative;
+  justify-items: center;
+      h1{
+        font-size: 2.188rem;
+        letter-spacing: 0.26256rem;
+        color:$bg;
+        height: 4rem;
+        margin-bottom: 0;
+        }
+        .galline {
+          height: 3px;
+          min-width: 9.32rem;
+          background: #F4CB3C;
+          border-radius: 3px;
+        }
+
 }
 
-.line {
-  height: 3px;
-  width: 14rem;
-  border-radius: 3px;
-  position: relative;
-}
 
-.lowline2 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+//---
 
 .firstpics {
   display: grid;
@@ -94,11 +90,12 @@ body {
   justify-content: center;
 
   .visamer {
-
-    color: $bg;
-    font-size: 3rem;
-    border-bottom: solid $bg;
-    margin-bottom: 3rem;
+    color: #656565;
+    font-size: 1.125rem;
+    letter-spacing: 0.135rem;
+    word-spacing: 0.18rem;
+    border-bottom:1.5px solid #656565;
+    margin-bottom: 4rem;
 
   }
 }
