@@ -29,9 +29,16 @@ function hide() {
 </div>
 
 
-<div class="galcontainer">
-  <h1  class="galhead" ><span style="color:#F5CB3C; font-size: 3.438rem; ">G</span>alleri</h1>
-  <div class="galline"></div>
+<div class="headlinecontainer">
+
+  <h1  class="headline" ><span style="color:#F5CB3C; font-size: 3.438rem; ">G</span>alleri</h1>
+
+  <div class="lowline2">
+
+    <div style="background-color: #F4CB3C; " class="line"></div>
+
+  </div>
+
 </div>
 
 <img class="decor1 flip" src="../svg/thaidecor.svg" alt="decoration">
