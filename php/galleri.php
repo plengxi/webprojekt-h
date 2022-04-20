@@ -30,7 +30,7 @@ function hide() {
 
 
 <div class="galcontainer">
-  <h1  class="galhead" ><span style="color:#F5CB3C; font-size: 3.438rem; ">G</span>alleri</h1>
+  <h1  class="galhead" style="color: #451E41;" ><span style="color:#F5CB3C; font-size: 3.438rem; ">G</span>alleri</h1>
   <div class="galline"></div>
 </div>
 

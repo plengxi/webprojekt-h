@@ -6,6 +6,18 @@ $borderRed: 1rem;
   background-color: white;
 }
 
+
+.galcontainer {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin: 0 auto 0 auto;
+
+  .galhead {
+
+  }
+}
+
 body {
   margin: 0 !important;
   color: white;
@@ -55,10 +67,7 @@ body {
   margin-top: 1rem;
 }
 
-}
 
-
-//---
 
 .firstpics {
   display: grid;
