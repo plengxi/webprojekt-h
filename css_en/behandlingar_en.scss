@@ -1,0 +1,110 @@
+$firstcolor : #451E41;
+$secondcolor : #F5CB3C;
+
+#behs {
+  background-color: white;
+}
+
+.g{
+  background-color: white;
+}
+
+.goldband{
+  width:auto;
+  background: rgb(255,236,173);
+background: radial-gradient(circle, rgba(255,236,173,1) 10%, rgba(245,203,60,1) 33%, rgba(198,157,15,1) 88%, rgba(140,123,66,1) 100%);
+height: 1rem;
+}
+
+.behandlingar h1{
+font-size: 2.188rem;
+letter-spacing: 0.26256rem;
+color:#451E41;
+height: 4rem;
+margin-bottom: 0;
+}
+
+.line {
+  height: 3px;
+  min-width:10rem;
+  background: #F4CB3C;
+  border-radius: 3px;
+}
+
+.head{
+  display:grid;
+  justify-content: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 0rem;
+  align-items: center;
+  margin-top: 3rem;
+  color:black;
+  margin-bottom:3rem;
+    h3{
+      font-size: 0.938rem;
+      line-height: 1.407rem;
+      letter-spacing: 0.11256rem;
+      color:white;
+      max-width: 15rem;
+      position: absolute;
+      bottom: 0.01rem;
+      left: 1rem;
+    }
+      p{
+        font-size: 0.625rem;
+        letter-spacing: 0.09rem;
+        line-height: 0.9375rem;
+        padding: 0 1rem 0 1rem;
+        text-align: left;
+        word-break: break-all;
+        text-align: justify;
+  text-justify: inter-word;
+      }
+}
+
+.container1{
+  box-shadow: 5px 0px 8px 0px rgba(0,0,0,0.2);
+  position: relative;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.87)),
+    url('../img/fotmassage.jpg');
+    height: 12.5rem;
+    background-size: cover;
+    border-top-right-radius: 1.313rem;
+    border-bottom-right-radius: 1.313rem;
+    background-position: center;
+}
+
+.container2{
+  box-shadow: -5px 0px 8px 0px rgba(0,0,0,0.2);
+  position: relative;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.87)),
+    url('../img/ryggmassage.jpg');
+    height: 12.5rem;
+    background-size: cover;
+    border-top-left-radius: 1.313rem;
+    border-bottom-left-radius: 1.313rem;
+    background-position: 30% 70%;
+}
+.special{
+  background: rgb(231,223,230);
+background: linear-gradient(90deg, rgba(231,223,230,1) 16%, rgba(150,126,147,0.84) 70%, rgba(69,30,65,0.67) 100%);
+}
+
+.container3{
+  box-shadow: 5px 0px 8px 0px rgba(0,0,0,0.2);
+  position: relative;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.87)),
+    url('../img/facemassage.jpg');
+    height: 12.5rem;
+    background-size: cover;
+    border-top-right-radius: 1.313rem;
+    border-bottom-right-radius: 1.313rem;
+    background-position: 70% 30%;
+}
