@@ -51,7 +51,7 @@
 
   <div class="sc">
     <p id="sms">SMS </p>
-    <p id="tel">070 573 0330 </p>
+  <a href="tel:+4705730330"><p id="tel">070 573 0330 </p></a>
   </div>
 
 </div>

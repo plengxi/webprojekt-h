@@ -1,0 +1,110 @@
+$bg: #451E41;
+$borderRed: 1rem;
+
+#gals {
+  background-color: white;
+}
+
+body {
+  margin: 0 !important;
+  color: white;
+  overflow-x: hidden;
+  background-color: white;
+
+}
+
+.goldbandContainer {
+  width: 100%;
+  position: relative;
+
+  .goldband {
+    width:auto;
+    background: rgb(255,236,173);
+  background: radial-gradient(circle, rgba(255,236,173,1) 10%, rgba(245,203,60,1) 33%, rgba(198,157,15,1) 88%, rgba(140,123,66,1) 100%);
+  height: 1rem;
+  }
+}
+
+//------head
+.galcontainer{
+  display:grid;
+  justify-content: center;
+  justify-items: center;
+      h1{
+        font-size: 2.188rem;
+        letter-spacing: 0.26256rem;
+        color:$bg;
+        height: 4rem;
+        margin-bottom: 0;
+        }
+        .galline {
+          height: 3px;
+          min-width: 11.592rem;
+          background: #F4CB3C;
+          border-radius: 3px;
+        }
+
+}
+
+
+//---
+
+.firstpics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+
+  #pic1 {
+    width: 100%;
+
+  }
+
+  #pic2 {
+    width: 100%;
+
+  }
+
+  #pic3 {
+    width: 100%;
+
+  }
+
+  #pic4 {
+    width: 100%;
+
+  }
+  .pics {
+    width: 100%;
+  }
+}
+
+#visamercontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .visamer {
+    color: #656565;
+    font-size: 1.125rem;
+    letter-spacing: 0.135rem;
+    word-spacing: 0.18rem;
+    border-bottom:1.5px solid #656565;
+    margin-bottom: 4rem;
+
+  }
+}
+#hidden {
+  display: none;
+  margin-top: -11rem;
+  height: 0%;
+}
+
+.first {
+  visibility: visible;
+}
