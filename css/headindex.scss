@@ -33,12 +33,20 @@ div.logobar {
 
 }
 
+.ululcnotainer{
+  display:none;
+}
+
+#no{
+  display: none !important;
+}
+
 
 .welcome{
   background-image: url('../img/headpic.jpg');
   box-shadow: inset 0px -85px 50px -1px rgba(0,0,0,0.8);
   position: relative;
-  background-size: 390px 300px;
+  background-size: 100% 300px;
   height:350px;
   background-repeat: no-repeat;
   margin-top: 0rem;
@@ -106,7 +114,7 @@ ul{
       width: 40%;
       margin-left: 30%;
       margin-right: 30%;
-      z-index:500;
+    z-index:100;
       position: absolute;
     }
 
@@ -124,8 +132,567 @@ z-index:999;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -2rem;
+    margin-top: -3.3rem; //-2
     width:97%;
-    z-index: -99;
+    z-index: -1;
+  }
+}
+
+
+//media
+
+
+
+@media (min-width: 300px) {
+  #heas {
+    height: 37.5rem;
+
+    .ulcnotainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      ul {
+          margin-top: 1.5rem;
+          width: 90%;
+          gap: 1rem;
+      }
+    }
+
+    .weltext {
+    padding-top: -2rem;
+    left: 9rem;
+
+    h1 {//size 33px
+      font-size: 1rem;
+      margin-top: 3rem;
+      margin-left: -8rem;
+    }
+    p {//size 12px
+      margin-left: -8rem;
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+      line-height: 1rem;
+        }
+
+    }
+  }
+}
+
+
+
+@media (min-width: 400px) {
+  #heas {
+    height: 38.5rem;
+
+    .ulcnotainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+        ul {
+            margin-top: 2rem;
+            width: 90%;
+            gap: 1rem;
+      }
+
+
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  #heas {
+    height: 48.5rem;
+
+    .ulcnotainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      ul {
+          margin-top: 2rem;
+          width: 90%;
+          gap: 1rem;
+      }
+    }
+
+  .welcome {
+    background-size: 100% 25rem;
+    height: 30rem;
+    position: relative;
+
+  .weltext {
+  padding-top: 0rem;
+  left: 10rem;
+
+  h1 {//size 33px
+    font-size: 2.5rem;
+    margin-top: 9rem;
+    margin-left: -8rem;
+  }
+  p {//size 12px
+    margin-top: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .decor {
+    margin-top: -2.5rem;
+  }
+}
+
+
+@media (min-width: 600px) {
+  #heas {
+    height: 55.5rem;
+
+  #logo {
+    width: 35%;
+  }
+
+  .welcome {
+    background-size: 100% 35rem;
+    height: 35rem;
+    position: relative;
+
+    .weltext {
+    padding-top: 0rem;
+    left: 10rem;
+
+    h1 {//size 33px
+      font-size: 2.5rem;
+      margin-top: 15rem;
+    }
+    p {//size 12px
+      margin-top: 0.25rem;
+      margin-left: -8rem;
+      font-size: 1.5rem;
+      line-height: 1.75rem;
+
+          }
+        }
+  }
+
+  .ulcnotainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  ul {
+      margin-top: 2rem;
+    }
+  }
+
+
+  .weltext {
+  padding-top: 5rem ;
+  left: 10rem;
+
+  h1 {//size 33px
+    font-size: 3rem;
+    margin-top: 14rem;
+    margin-left: -8rem;
+
+  }
+  p {//size 12px
+    margin-left: -8rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+      }
+    }
+
+  .decor {
+    margin-top: -2.5rem;
+    }
+  }
+}
+
+@media (min-width: 690px) {
+  #heas {
+    .welcome {
+      .weltext {
+        h1 {
+          margin-top: 12rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #heas {
+    height: 68.5rem;
+
+
+  .welcome {
+    background-size: 100% 40rem;
+    height: 40rem;
+    position: relative;
+  }
+
+
+    .weltext {
+    padding-top: 3rem;
+    left: 10rem;
+
+    h1 {//size 33px
+      font-size: 3rem;
+      margin-top: 16rem !important;
+      margin-left: -5rem;
+    }
+    p {//size 12px
+      margin-left: -5rem;
+}
+
+  }
+
+  .ulcnotainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  ul {
+      margin-top: 3rem;
+      width: 90%;
+      gap: 1.2rem;
+
+
+    li {
+      text-align: center;
+      padding: 1rem 0 1rem 0;
+
+
+      &:nth-child(3) {
+          background-color: $secondcolor;
+        }
+      .starttext {
+        font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .flaggor{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+
+    .inflaggor {
+      width: 23%;
+      }
+    }
+  }
+}
+
+@media (min-width: 880px) {
+
+  #heas {
+    height: 70.5rem;
+
+  div.logobar {
+    min-height: 190px;
+  }
+
+  #logo {
+    width: 40% ;
+    }
+    .flaggor{
+
+      .inflaggor {
+        width: 11%;
+        }
+      }
+  }
+}
+
+@media (min-width: 1000px) {
+
+  #heas {
+  height: 40rem;
+
+  div.logobar {
+    display: none;
+  }
+
+   .firstlogo {
+     display: none;
+   }
+
+   .ululcnotainer {
+     display: none;
+     z-index: 1000;
+   }
+   #no {
+     display: block !important;
+   }
+
+  .ulcnotainer {
+    background-color: #3b1937;
+    z-index: 1000;
+    position: fixed;
+
+
+  ul {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 100% ;
+  }
+
+  li {
+    background-color: #3b1937;
+    box-shadow: none;
+    border-radius: 0;
+
+    &:nth-child(3) {
+      background-color:  #3b1937 !important;
+
+      a {
+        color: $secondcolor;
+
+      }
+    }
+  }
+
+  .starttext {
+    color: white;
+    font-size: 0.9rem !important;
+
+  }
+}
+
+  .pcshow {
+    display: block !important;
+  }
+
+  .flaggor {
+    margin-left: 50rem;
+    margin-top: -5rem;
+
+    .inflaggor {
+      z-index: 100;
+
+    }
+
+  }
+
+      .decor {
+        display: none !important;
+
+      }
+
+    }
+  }
+
+
+@media (min-width: 1100px) {
+  #heas {
+    height: 45rem;
+
+  .welcome {
+    background-size: 100% 40rem;
+    height: 45rem;
+    position: relative;
+  }
+  .flaggor {
+    margin-left: 55rem;
+    margin-top: -5rem;
+
+    .inflaggor {
+      width: 11%;
+    }
+}
+}
+}
+
+@media (min-width: 1200px) {
+  #heas {
+    height: 50rem;
+
+  .welcome {
+    background-size: 100% 45rem;
+    height: 50rem;
+
+    .weltext {
+    padding-top: -3rem;
+    left:10rem;
+
+
+    h1 {
+      font-size: 4rem !important;
+      margin-top: 17.5rem;
+      margin-left: -7rem;
+    }
+    p {
+      margin-left: -7rem;
+      font-size: 1.75rem !important;
+      letter-spacing: 0.148rem;
+      line-height: 2.5rem;
+}
+
+  }
+  }
+  .flaggor {
+    margin-left: 60rem;
+    margin-top: -5rem;
+
+    .inflaggor {
+      z-index: 100;
+    }
+  }
+}
+}
+
+
+@media (min-width: 1300px) {
+
+  #heas {
+    height: 55rem;
+
+  .welcome {
+    background-size: 100% 50rem;
+    height: 55rem;
+
+
+    .weltext {
+    padding-top: 6.5rem;
+    left: 11rem;
+  }
+  }
+  .flaggor {
+    margin-left: 65rem;
+  }
+}
+}
+
+@media (min-width: 1400px) {
+  #heas {
+    height: 53rem;
+
+    .pcshow {
+      width: 25%;
+    }
+
+    .ulcnotainer {
+      background-color: #3b1937;
+      z-index: 1000;
+      position: fixed;
+
+
+      .starttext {
+        font-size: 1.5rem !important;
+
+      }
+
+    }
+
+  .welcome {
+    background-size: 100% 55rem;
+    height: 53rem;
+
+    .weltext {
+    padding-top: 0.5rem;
+    left: 11rem;
+
+    h1 {
+      font-size: 4.5rem !important;
+      margin-top: 23.5rem !important;
+
+    }
+    p {
+      font-size: 2rem !important;
+      letter-spacing: 0.148rem;
+      line-height: 2.5rem;
+}
+  }
+  }
+  .flaggor {
+    margin-left: 70rem;
+  }
+}
+}
+
+
+@media (min-width: 1500px) {
+  #heas {
+  height: 53rem;
+
+  .ulcnotainer {
+
+    .starttext {
+      font-size: 1.5rem !important;
+
+    }
+
+  }
+
+  .welcome {
+    background-size: 100% 60rem;
+    height: 53rem;
+
+    .weltext {
+    padding-top: 13rem;
+    left: 13rem;
+
+    h1 {
+      margin-top: 9rem !important;
+    }
+  }
+  }
+
+    .flaggor {
+      margin-top: -6rem;
+      margin-left: 70rem;
+    }
+  }
+}
+
+
+@media (min-width: 1575px) {
+  #heas {
+  height: 55rem;
+
+  .welcome {
+    margin-top: -3rem;
+    background-size: 100% 65rem;
+    height: 55rem;
+    box-shadow: inset 0px -85px 50px 2px rgba(0,0,0,0.8);
+
+    .weltext {
+    padding-top: 17.75rem;
+    left: 15rem;
+  }
+  }
+
+
+  .flaggor {
+    margin-top: -6rem;
+    margin-left: 78rem;
+  }
+
+}
+}
+
+@media (min-width: 1700px) {
+  #heas {
+
+  .flaggor {
+    margin-left: 90rem;
+  }
+  }
+}
+
+@media (min-width: 1800px) {
+  #heas {
+
+  .flaggor {
+    margin-left: 95rem;
+  }
   }
 }
