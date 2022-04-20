@@ -47,7 +47,19 @@ body {
 }
 
 
-//---
+.decor1{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3.3rem;
+  width: 98%;
+  z-index:-1;
+  display:none;
+}
+
+.flip{
+  transform: rotate(180deg);
+}
 
 .firstpics {
   display: grid;
@@ -60,24 +72,11 @@ body {
   margin-bottom: 1.5rem;
   position: relative;
 
-  #pic1 {
-    width: 100%;
-
+  #tablet1{
+    display:none;
   }
-
-  #pic2 {
-    width: 100%;
-
-  }
-
-  #pic3 {
-    width: 100%;
-
-  }
-
-  #pic4 {
-    width: 100%;
-
+  #tablet2{
+    display: none;
   }
   .pics {
     width: 100%;
@@ -103,8 +102,71 @@ body {
   display: none;
   margin-top: -11rem;
   height: 0%;
+  position:relative;
+    #deco{
+    display:none;
+    }
+}
+
+#showdeco{
+  display:none;
 }
 
 .first {
   visibility: visible;
+}
+
+//@media
+
+@media (min-width: 390px) {
+  .decor2 {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .decor1 {
+    display: block;
+  }
+  .decor2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3.3rem;
+    width: 97%;
+    z-index: -1;
+    visibility: visible;
+  }
+
+  .firstpics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    position: relative;
+
+    #tablet1 {
+      display: block;
+    }
+
+    #tablet2 {
+      display: block;
+    }
+    #tablet3 {
+      display: none;
+    }
+
+    #tablet4 {
+      display: none;
+    }
+
+    .visamer {
+      font-size: 3rem;
+    }
+  }
 }
