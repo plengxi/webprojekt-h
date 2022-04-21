@@ -113,6 +113,15 @@ background: linear-gradient(90deg, rgba(231,223,230,1) 16%, rgba(150,126,147,0.8
 @media (min-width: 600px) {
  #behs {
    .container {
+    .container1 {
+      .text1 {
+        h3 {
+          font-size: 1.5rem;
+
+        }
+      }
+    }
+
      p {
        font-size: 0.93rem !important;
        line-height: 1.19rem;
@@ -121,26 +130,7 @@ background: linear-gradient(90deg, rgba(231,223,230,1) 16%, rgba(150,126,147,0.8
  }
 }
 
-@media (min-width: 768px) {
- #behs {
-   .container {
-     p {
-       font-size: 0.96rem !important;
-       line-height: 1.29rem;
 
-     }
-     .container1 {
-       height: 13.5rem;
-     }
-     .container2 {
-       height: 13rem;
-     }
-     .container3 {
-       height: 13rem;
-     }
-   }
- }
-}
 
 @media (min-width: 768px) {
  #behs {
@@ -196,9 +186,18 @@ background: linear-gradient(90deg, rgba(231,223,230,1) 16%, rgba(150,126,147,0.8
       }
       .container1 {
         height: 17rem;
+        .text1 {
+          font-size: 2rem;
+        }
       }
       .container2 {
         height: 15rem;
+        .text2 {
+          font-size: 2rem;
+        }
+      }
+      .container3 {
+        font-size: 2rem;
       }
     }
   }
