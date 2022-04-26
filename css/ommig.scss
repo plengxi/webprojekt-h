@@ -51,8 +51,8 @@ box-sizing: border-box;
   margin-bottom: -7rem;
   margin-top: 10rem;
   z-index: 99;
-align-items: end;
-justify-items:end;
+  align-items: end;
+  justify-items: end;
 
   .profile{
     width:100%;
@@ -177,4 +177,516 @@ color:black;
 }
 
 
+}
+
+@media (min-width: 400px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+
+        .flower {
+          width: 17rem;
+        }
+      }
+
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+          padding-right: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+
+        .flower {
+          width: 19rem;
+        }
+      }
+
+      .ommigheadflex {
+
+        .ommigHeadlineAndPic {
+
+
+          #ommigHeadline {
+            margin-top: 12rem;
+            margin-right: 3rem;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 525px) {
+
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            margin-top: 14rem;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 550px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+        .flower {
+          width: 22rem;
+        }
+      }
+
+      .ommigheadflex {
+        margin-bottom: 11%;
+
+        .ommigHeadlineAndPic {
+          padding-left: 3rem;
+
+          #ommigHeadline {
+            margin-right: 4.5rem;
+          }
+        }
+      }
+      #ommigText {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 600px) {
+  #ommigs {
+    .ommig {
+
+      .ommigheadflex {
+        margin-bottom: 11%;
+
+        .ommigHeadlineAndPic {
+          padding-left: 3rem;
+          margin-top: 12rem;
+
+
+          #ommigHeadline {
+            margin-right: 5.5rem;
+            margin-top: 12rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  #ommigs {
+
+    .ommig {
+      .ommigheadflex {
+        margin-bottom: 9%;
+
+        .ommigHeadlineAndPic {
+          padding-left: 6rem;
+          margin-top: 15rem;
+
+
+          #ommigHeadline {
+            margin-right: 5.5rem;
+            margin-top: 12rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            margin-right: 7rem;
+            font-size: 3rem;
+
+          }
+        }
+      }
+      #ommigText {
+        .pageDiv {
+          #Hej  {
+            //font-size: 1.75rem;
+
+          }
+          #ommigheadlineUtbildning {
+            //font-size: 1.75rem;
+          }
+          p {
+            //font-size: 1.463rem;
+            //letter-spacing: 0.22756rem;
+            //word-spacing: 0.35008rem;
+            //line-height: 1.9945rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            margin-right: 8rem;
+            //font-size: 3rem;
+
+          }
+        }
+      }
+      #ommigText {
+        padding-left: 1%;
+        padding-right: 1%;
+
+        .pageDiv {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          .part1 {
+            margin: 0.5rem;
+            width: 95%;
+
+            #Hej  {
+              //font-size: 1.75rem;
+
+            }
+            #ommigheadlineUtbildning {
+              //font-size: 1.75rem;
+            }
+            p {
+              margin-top: 2rem;
+
+            }
+          }
+          .part2 {
+            margin: 0.5rem;
+            width: 85%;
+            margin-left: 3rem;
+
+            .Branch {
+              .row1 {
+                margin-top: 2rem;
+                h2 {
+                  //font-size: 1.75rem;
+                }
+              }
+              .row2 {
+                margin-top: 0.25rem;
+                h2 {
+                  //font-size: 1.75rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+        margin-bottom: 7%;
+
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            margin-right: 10rem;
+
+
+          }
+        }
+      }
+      #ommigText {
+        .pageDiv {
+          p {
+            word-spacing: 0.16rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+
+        .flower {
+          top: 2rem;
+          right: -7rem;
+          width: 27rem;
+
+          &:nth-child(1) {
+            left: -7rem;
+          }
+        }
+      }
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+
+          #ommigHeadline {
+            margin-right: 13rem;
+
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+
+        .flower {
+          right: -7rem;
+          width: 31rem;
+
+          &:nth-child(1) {
+            left: -7rem;
+          }
+        }
+      }
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            font-size: 4rem;
+            margin-right: 13rem;
+
+          }
+        }
+      }
+      #ommigText {
+        .pageDiv {
+          .part1 {
+
+            #Hej  {
+              font-size: 1.75rem;
+
+            }
+            p {
+              font-size: 1.35rem;
+              letter-spacing: 0.22756rem;
+              word-spacing: 0.35008rem;
+              line-height: 1.7945rem;
+
+
+            }
+          }
+          .part2 {
+
+            #ommigheadlineUtbildning {
+              font-size: 1.75rem;
+            }
+
+            p {
+              font-size: 1.35rem;
+              letter-spacing: 0.22756rem;
+              word-spacing: 0.25008rem;
+              line-height: 1.7945rem;
+            }
+
+            .Branch {
+              .row1 {
+                h2 {
+                  font-size: 1.75rem;
+                }
+              }
+              .row2 {
+                h2 {
+                  font-size: 1.75rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+
+        .flower {
+          right: -8rem;
+          width: 35rem;
+
+          &:nth-child(1) {
+            left: -8rem;
+          }
+        }
+      }
+
+      .ommigheadflex {
+        margin-bottom: 5%;
+
+        .ommigHeadlineAndPic {
+          margin-top: 22rem;
+
+          #ommigHeadline {
+            margin-right: 15rem;
+
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (min-width: 1200px) {
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+        margin-bottom: 4%;
+
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            margin-right: 19rem;
+
+
+          }
+          .profile {
+            margin-right: -1rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1300px) {
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            margin-right: 22rem;
+
+
+          }
+          .profile {
+            margin-right: -1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            margin-right: 24rem;
+
+
+          }
+          .profile {
+            margin-right: -1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  #ommigs {
+    .ommig {
+
+      .flowersContainer {
+
+        .flower {
+          right: -11rem;
+          width: 44rem;
+
+          &:nth-child(1) {
+            left: -11rem;
+          }
+        }
+      }
+
+      .ommigheadflex {
+        margin-bottom: 3.4%;
+
+        .ommigHeadlineAndPic {
+          margin-top: 24rem;
+
+          #ommigHeadline {
+            margin-right: 28rem;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  #ommigs {
+    .ommig {
+
+      .flowersContainer {
+
+        .flower {
+          right: -12rem;
+          width: 46rem;
+
+          &:nth-child(1) {
+            left: -12rem;
+          }
+        }
+      }
+
+      .ommigheadflex {
+        margin-bottom: 3%;
+
+        .ommigHeadlineAndPic {
+          margin-top: 26rem;
+
+          #ommigHeadline {
+            margin-right: 31rem;
+
+          }
+        }
+      }
+    }
+  }
 }
