@@ -38,7 +38,7 @@ height: 1rem;
 
 .linepris {
   height: 3px;
-  max-width:18.372rem;
+  max-width:16.495rem;
   background: white;
   border-radius: 3px;
   margin-top:-0.5rem;
@@ -137,6 +137,7 @@ textarea#frågor{
 .sec3{
   text-align: center;
   display: grid;
+  grid-template-rows: 1fr 1fr;
   justify-content: center;
     h2{
       color: $secondcolor;
@@ -158,8 +159,15 @@ textarea#frågor{
   text-align: center;
 
     .gmap_canvas{
-      border:0.188rem solid $secondcolor;
+      border:3px solid $secondcolor;
       border-radius: 0.75rem;
+      width:291px;
+      height:165px;
+    }
+    #gmap_canvas{
+
+      width:291px;
+      height:165px;
     }
 }
 
@@ -177,10 +185,11 @@ textarea#frågor{
   display:grid;
   justify-content: center;
   justify-items: center;
+  margin:auto;
   margin-top:2rem;
         .linecopyright {
           height: 3px;
-          min-width: 100%;
+          min-width: 21rem;
           background: #F4CB3C;
           border-radius: 3px;
         }
@@ -191,4 +200,154 @@ textarea#frågor{
           word-spacing: 0.1rem;
           }
 
+}
+
+@media (min-width:500px){
+    .ram{
+      margin: 0 2rem 0 2rem;
+    }
+    .linecopyright{
+      width: 28rem;
+    }
+}
+
+@media (min-width:600px){
+    .ram{
+      margin: 0 3rem 0 3rem;
+    }
+    .linecopyright{
+      width: 32rem;
+    }
+}
+
+//media ipad =768px
+
+@media (min-width: 768px) {
+  .columnsplit{
+    margin-top: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    .col1{
+      margin-left: 1rem;
+
+    .ram{
+      margin: 0 1rem 0 1rem;
+    }
+  }
+      .sec3{
+        margin-top:11rem;
+        padding: 0rem;
+          .adresstext{
+            grid-row: 2;
+          }
+      }
+      img.logofoot{
+        margin-top:0rem;
+      }
+  }
+
+  .end{
+    margin-top:4rem;
+    .linecopyright{
+      min-width: 36rem;
+    }
+  }
+}
+
+@media(min-width:1024px){
+
+.sec3{
+  grid-template-rows: 15rem 10rem;
+  .mapouter{
+    text-align: center;
+      .gmap_canvas{
+        height:230px;
+        width:340px;
+        margin-left:-1.5rem;
+        #gmap_canvas{
+          height:230px;
+          width:340px;
+        }
+      }
+   }
+  }
+}
+
+@media(min-width:1440px){
+
+.columnsplit{
+.sec1 {
+  h1{
+    font-size: 2.388rem;
+  }
+p{
+font-size: 1.85rem;
+}
+}
+
+
+  .sec2{
+    width:80%;
+    margin:auto;
+      h3{
+        font-size: 2rem;
+      }
+  }
+
+form{
+  label{
+    font-size: 1.45rem;
+  }
+  .till{
+    #till{
+      font-size: 1rem;
+    }
+  }
+}
+
+.sec3{
+    margin-top:13rem;
+  h2{
+    font-size: 1.85rem;
+  }
+  p{
+    font-size: 1.45rem;
+  }
+}
+
+.end{
+    margin-top:4rem;
+    .linecopyright{
+      min-width: 60rem;
+    }
+    p{
+      font-size: 0.825rem;
+    }
+  }
+}
+}
+
+@media(min-width:2560px){
+.columnsplit{
+  .sec2{
+    width:50%;
+    margin:auto;
+  }
+
+  .end{
+    margin-top:4rem;
+    width:60rem;
+    margin:auto;
+    margin-top:4rem;
+    .linecopyright{
+      min-width: 70rem;
+    }
+    p{
+      font-size: 0.825rem;
+      letter-spacing: 0.075rem;
+      word-spacing: 0.1rem;
+    }
+  }
+
+}
 }

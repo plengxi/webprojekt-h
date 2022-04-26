@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="../css/prislista.min.css">
+<!--<link rel="stylesheet" href="../css/prislista.min.css">-->
 
 
 <section id="priss">

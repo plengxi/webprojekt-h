@@ -1,7 +1,7 @@
 <section id="ommigs">
 
 
-<link rel="stylesheet" href="../css/ommig.min.css">
+<!--<link rel="stylesheet" href="../css/ommig.min.css">-->
 
 <div class="ommig">
   <div class="flowersContainer">
@@ -21,7 +21,7 @@
 <section id="ommigText">
   <div class="pageDiv">
     <div class="part1">
-      
+
       <h2 id="Hej">Hej! Jag är Darunee Pukdeesri.</h2>
       <p>Jag är 51 år gammal. Jag har mer än 13 års
         erfarenhet som undersköterska på vård-&

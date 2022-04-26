@@ -43,16 +43,12 @@ padding:0rem;
         }
         .prisline {
           height: 3px;
-          min-width: 6.682rem;
+          min-width: 10.453rem;
           background: #F4CB3C;
           border-radius: 3px;
         }
 
 }
-
-//-----headache---
-
-
 
 
 .pris{
@@ -99,7 +95,7 @@ border-radius: 0.938rem;
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.87)),
     url('../img/giftcard.jpg');
     height: 12.5rem;
-    background-size: 352px 200px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -128,7 +124,7 @@ border-radius: 0.938rem;
           }
           .bokline{
             height: 3px;
-            min-width: 11.014rem;
+            min-width: 10.453rem;
             background: #F4CB3C;
             border-radius: 3px;
           }
@@ -192,4 +188,135 @@ h2 {
 
 p {
 
+}
+
+@media (min-width: 500px) {
+  #priss {
+    .giftcontainer {
+      height: 16.5rem;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  #priss {
+    .pris {
+      gap: 1rem;
+    }
+    .giftcontainer {
+      height: 18.5rem;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  #priss {
+    .pris {
+      p {
+        font-size: 1.5rem;
+        letter-spacing: 0.135rem;
+        word-spacing: 0.18rem;
+
+        span {
+          font-size: 1.125rem !important;
+        }
+      }
+    }
+    .giftcontainer {
+      height: 18.5rem;
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+    .sc {
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #priss {
+    .pris {
+
+    }
+    .giftBoka {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 5rem;
+      margin-top: 5rem;
+
+      .giftcontainer {
+        height: 16.5rem;
+        order: 2;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  #priss {
+    .pris {
+      margin-left: 5rem;
+      margin-right: 5rem;
+
+    }
+    .giftBoka {
+      margin-left: 5rem;
+      margin-right: 5rem;
+
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  #priss {
+    .pris {
+      margin-left: 7rem;
+      margin-right: 7rem;
+      gap: 1.5rem;
+
+      p {
+        font-size: 1.75rem;
+        letter-spacing: 0.135rem;
+        word-spacing: 0.18rem;
+
+        span {
+          font-size: 1.125rem !important;
+        }
+      }
+
+    }
+    .giftBoka {
+      margin-left: 7rem;
+      margin-right: 7rem;
+
+      .giftcontainer {
+        height: 18.5rem;
+        margin: 0 0 0 0;
+
+        p {
+          font-size: 1.75rem;
+        }
+      }
+      .sc {
+        p {
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  #priss {
+    .giftBoka {
+      .giftcontainer {
+        height: 21.5rem;
+
+      }
+    }
+  }
 }

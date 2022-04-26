@@ -1,7 +1,8 @@
+
 <section id="ommigs">
 
 
-<link rel="stylesheet" href="../css_en/ommig_en.min.css">
+<!--<link rel="stylesheet" href="../css/ommig.min.css">-->
 
 <div class="ommig">
   <div class="flowersContainer">
@@ -20,29 +21,35 @@
 
 <section id="ommigText">
   <div class="pageDiv">
-    <h2 id="Hej">Hello! I'm Darunee Pukdeesri.</h2>
-    <p>I'm 51 years old. I have more than 13 years old
-       experience as a nurse in nursing&care administration Servicehuset in Åmåls
-       commune, also the course leader in "Introduction
-       care" together with the IN Åmål project.
-       I have trained as a professional masseur
-       in Thai massage and reflexology.</p>
+    <div class="part1">
 
+      <h2 id="Hej">Hello! I'm Darunee Pukdeesri.</h2>
+      <p>I'm 51 years old. I have more than 13 years old
+         experience as a nurse in nursing&care administration Servicehuset in Åmåls
+         commune, also the course leader in "Introduction
+         care" together with the IN Åmål project.
+         I have trained as a professional masseur
+         in Thai massage and reflexology.</p>
+    </div>
 
-    <h2 id="ommigheadlineUtbildning">Education</h2>
-    <p>Successful completion on the course of Thaitraditional medicine at
-      The Ayurvedig Association of Thailand, Bangkok Thailand.</p>
+    <div class="part2">
 
-      <div class="Branch">
-        <div class="row1">
+      <h2 id="ommigheadlineUtbildning">Education</h2>
+      <p>Successful completion on the course of Thaitraditional medicine at
+        The Ayurvedig Association of Thailand, Bangkok Thailand.</p>
+
+        <div class="Branch">
+          <div class="row1">
           <h2>Branch:</h2><p>Thai Traditional Massage,2005. Certificate No.075/2005</p>
+          </div>
+
+          <div class="row2">
+            <h2>Branch:</h2><p>Refloxology, 2005. Certificate No.075/2005</p>
+          </div>
+
         </div>
 
-      <div class="row2">
-        <h2>Branch:</h2><p>Refloxology, 2005. Certificate No.075/2005</p>
-      </div>
-
-  </div>
+    </div>
 
 </div>
 

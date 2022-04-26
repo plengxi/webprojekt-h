@@ -1,7 +1,7 @@
 <section id="ommigs">
 
 
-<link rel="stylesheet" href="../css/ommig.min.css">
+<!--<link rel="stylesheet" href="../css/ommig.min.css">-->
 
 <div class="ommig">
   <div class="flowersContainer">
@@ -20,27 +20,34 @@
 
 <section id="ommigText">
   <div class="pageDiv">
-    <h2 id="Hej">สวัสดีค่ะ! ดารุณี ภักดีศรี (นี)</h2>
-    <p>อายุ 51ปี มีประสบการณ์กว่า 13ปี ในการเป็นผู้ช่วยพยาบาลที่
-      Vård-&Omsorgförvaltningen Servicehuset ใน Åmåls kommun รวมถึงเป็นผู้นำหลักสูตร "Introduktion vård" ร่วมกับโปรเจ็ค IN Åmål
-       และได้ผ่านการอบรมเป็นหมอนวดมืออาชีพในสายการนวดแผนไทยและนวดกดจุด(เท้า)
-        </p>
+    <div class="part1">
 
+      <h2 id="Hej">สวัสดีค่ะ! ดารุณี ภักดีศรี (นี)</h2>
+      <p>อายุ 51ปี มีประสบการณ์กว่า 13ปี ในการเป็นผู้ช่วยพยาบาลที่
+        Vård-&Omsorgförvaltningen Servicehuset ใน Åmåls kommun
+        รวมถึงเป็นผู้นำหลักสูตร "Introduktion vård" ร่วมกับโปรเจ็ค IN Åmål
+         และได้ผ่านการอบรมเป็นหมอนวดมืออาชีพในสายการนวดแผนไทยและนวด
+         กดจุด(เท้า)</p>
+    </div>
 
-    <h2 id="ommigheadlineUtbildning">การศึกษา</h2>
-    <p>เรียนจบหลักสูตรการแพทย์แผนไทยโบราณที่ The Ayurvedig
-       Association of Thailand, กรุงเทพมหานคร ประเทศไทย.</p>
+    <div class="part2">
 
-      <div class="Branch">
-        <div class="row1">
-          <h2>สาขา:</h2><p>นวดแผนไทย, พ.ศ.2548. ใบรับรองเลขที่ 075/2548</p>
+      <h2 id="ommigheadlineUtbildning">การศึกษา</h2>
+      <p>เรียนจบหลักสูตรการแพทย์แผนไทยโบราณที่ The Ayurvedig
+         Association of Thailand, กรุงเทพมหานคร ประเทศไทย</p>
+
+        <div class="Branch">
+          <div class="row1">
+            <h2>สาขา:</h2><p>นวดแผนไทย, พ.ศ.2548. ใบรับรองเลขที่ 075/2548</p>
+          </div>
+
+          <div class="row2">
+            <h2>สาขา:</h2><p>นวดกดจุด, พ.ศ.2548. ใบรับรองเลขที่ 075/2005</p>
+          </div>
+
         </div>
 
-      <div class="row2">
-        <h2>สาขา:</h2><p>นวดกดจุด, พ.ศ.2548. ใบรับรองเลขที่ 075/2005</p>
-      </div>
-
-  </div>
+    </div>
 
 </div>
 

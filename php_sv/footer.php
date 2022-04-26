@@ -1,8 +1,11 @@
-  <link rel="stylesheet" href="../css/footer.min.css">
+  <!--<link rel="stylesheet" href="../css/footer.min.css">-->
 
 <div class="goldband"></div>
 
 <div class="footer">
+
+<div class="columnsplit">
+<div  class="col1">
 
   <div class="sec1">
 <div class="head">
@@ -25,6 +28,9 @@
 </div>
 </div>
 
+</div>
+
+<div  class="col2">
 
 <div class="sec3">
 
@@ -32,10 +38,14 @@
 <div class="adresshead"><h2>Adress</h2></div>
 <p>Fryxellgaten 76<br>662 35 Åmål</p>
 </div>
-<div class="mapouter"><div class="gmap_canvas"><iframe width="291" height="165" id="gmap_canvas" src="https://maps.google.com/maps?q=Fryxellgatan%2076,%20662%2035,%C3%85m%C3%A5l&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:165px;width:291px;}</style><a href="https://www.embedgooglemap.net">use google maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:165px;width:291px;}</style></div></div>
+<div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Fryxellgatan%2076,%20662%2035,%C3%85m%C3%A5l&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:165px;width:291px;}</style><a href="https://www.embedgooglemap.net">use google maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:165px;width:291px;}</style></div></div>
 </div>
 
 <img class="logofoot" src="../svg/logo.svg" alt="logo">
+
+</div>
+
+</div>
 
 <div class="end">
 <div class="linecopyright"></div>

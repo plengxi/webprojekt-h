@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../css/galleri.min.css">
-
 <section id="gals">
 
 
@@ -9,31 +7,42 @@ function show()
 {
   document.getElementById('hidden').style.display = 'block';
   document.getElementById('first').style.visibility = 'hidden';
-  document.getElementById('showdeco').style.visibility = 'none';
-  document.getElementById('deco').style.visibility = 'block';
+  document.getElementById('showdeco ').style.display = 'none';
+  document.getElementById('deco').style.display = 'block';
+
 }
 
 function hide() {
   document.getElementById('hidden').style.display = 'none';
   document.getElementById('first').style.visibility = 'visible';
-  document.getElementById('showdeco').style.visibility = 'showdeco';
+  document.getElementById('showdeco ').style.display = 'block';
 
 }
 </script>
 
 <div id="topgal" class=".goldbandContainer">
+
   <div class="goldband"></div>
+
 </div>
 
 
-<div class="galcontainer">
-  <h1  class="galhead" style="color: #451E41;" ><span style="color:#F5CB3C; font-size: 3.438rem; ">G</span>alleri</h1>
-  <div class="galline"></div>
+<div class="headlinecontainer">
+
+  <h1  class="headline" ><span style="color:#F5CB3C; font-size: 3.438rem; ">G</span>alleri</h1>
+
+  <div class="lowline2">
+
+    <div style="background-color: #F4CB3C; " class="line"></div>
+
+  </div>
+
 </div>
 
 <img class="decor1 flip" src="../svg/thaidecor.svg" alt="decoration">
 
-  <div class="firstpics">
+
+<div class="firstpics">
 
   <img class="pics" src="../img/room1.1.jpg" alt="room">
   <img class="pics" src="../img/room2.2.jpg" alt="room">
@@ -52,7 +61,7 @@ function hide() {
 
 <div id="hidden">
 
-  <div class="firstpics" >
+  <div class="firstpics another" >
 
     <img class="pics" id="tablet3" src="../img/tidning.jpg" alt="artikel">
     <img class="pics" id="tablet4" src="../img/room2.jpg" alt="room">
@@ -66,11 +75,14 @@ function hide() {
 
 </div>
 
+
 <div href="#" id="visamercontainer" class="second">
+
   <a type="button" class="visamer" onclick="hide()">Visa mindre</a>
+
 </div>
 
-<div id="">
+<div>
 
   <img class="decor2" id="deco" src="../svg/thaidecor.svg" alt="decoration">
 

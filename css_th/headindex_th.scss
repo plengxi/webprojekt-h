@@ -44,7 +44,7 @@ div.logobar {
 
 .welcome{
   background-image: url('../img/headpic.jpg');
-  box-shadow: inset 0rem -8rem 3rem -1rem rgba(0,0,0,0.8);
+  box-shadow: inset 0px -85px 50px -1px rgba(0,0,0,0.8);
   position: relative;
   background-size: 100% 300px;
   height:350px;
@@ -56,24 +56,22 @@ div.logobar {
 
 .weltext{
 position: absolute;
-top:11rem;
+top:13rem;
 left:1rem;
     h1{//size 33px
       margin-bottom: 0rem;
-      font-size: 2.063rem !important;
-      letter-spacing: 0.248rem !important;
-      word-spacing: 0.33rem !important;
+      font-size: 2.063rem;
+      letter-spacing: 0.248rem;
+      word-spacing: 0.33rem;
     }
-
-      p{//size 16px
-        margin-top:0rem !important;
-        font-size:1rem !important;
-        letter-spacing: 0.09rem !important;
-        line-height: 1.5rem !important;
-        color:#DADADA;
-        word-spacing: 0.12rem !important;
+    p{//size 12px
+      margin-top:0rem;
+      font-size:1rem;
+      letter-spacing: 0.09rem;
+      line-height: 1.125rem;
+      color:#DADADA;
+      word-spacing: 0.12rem;
     }
-
 }
 
 ul{
@@ -109,7 +107,6 @@ ul{
 
 
     .flaggor{
-      margin-top:0.5rem;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -135,7 +132,7 @@ z-index:999;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -1rem; //-2
+    margin-top: -3.3rem; //-2
     width:97%;
     z-index: -1;
   }
