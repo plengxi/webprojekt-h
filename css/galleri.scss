@@ -141,6 +141,7 @@ body {
 
   .decor1 {
     display: block;
+    margin-bottom: 3rem;
   }
   .decor2 {
     display: block;
@@ -150,6 +151,7 @@ body {
     width: 97%;
     z-index: -1;
     visibility: visible;
+    margin-bottom: 3rem;
   }
 
   .firstpics {
@@ -178,13 +180,40 @@ body {
       display: none;
     }
 
-    .visamer {
-      font-size: 3rem;
-    }
+
 
 
 
   }
+  #visamercontainer {
+    #first {
+      font-size: 1.25rem;
+    }
 
+  }
+  #hidden {
+    .second {
+      .visamer {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+
+}
+
+@media (min-width: 1000px) {
+  #visamercontainer {
+    #first {
+      font-size: 1.55rem;
+    }
+  }
+  #hidden {
+    .second {
+      .visamer {
+        font-size: 1.55rem;
+      }
+    }
+  }
 
 }

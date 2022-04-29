@@ -16,25 +16,27 @@
     </div>
 
 
-
-<div class="pris">
+<div class="prisbackground">
+  <div class="pris">
 
     <p class="move">Helkroppsmassage</p>
-      <p class="price">400 kr/60 min</p>
+    <p class="price">400 kr/60 min</p>
 
 
     <p class="move">Fotmassage<br>(Reflexology)</p>
-      <p class="price">300 kr/45 min</p>
+    <p class="price">300 kr/45 min</p>
 
     <p class="move">*Oljemassage<br>(Bara ryggen)</p>
-      <p class="price">300 kr/45 min</p>
+    <p class="price">300 kr/45 min</p>
 
     <p class="move">*Ansiktsbehandling</p>
-      <p class="price">300 kr/45 min</p>
+    <p class="price">300 kr/45 min</p>
 
-      <p class="tomt"></p>
-      <p class="price"><span style="color:red; font-size:0.8rem">**Kvitto finns<span></p>
-  </div>
+    <p class="tomt"></p>
+    <p class="price"><span style="color:red; font-size:0.8rem">**Kvitto finns<span></p>
+    </div>
+
+</div>
 
   <div class="giftBoka">
     <div class="giftcontainer">
