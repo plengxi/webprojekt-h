@@ -1,5 +1,3 @@
-
-
 <body>
 
   <section id="heas">
@@ -29,14 +27,15 @@ window.scrollTo(0,document.querySelector('#scroll').scrollHeight);
         <ul>
 
           <img style="display: none;" class="pcshow" src="../svg/logo.svg" alt="logo">
+
           <li><a class="starttext" href="#ommigs">เกี่ยวกับฉัน</a></li>
           <li><a class="starttext" href="#pristop">ราคา</a></li>
-          <li><a class="starttext" href="#topboka">จองเวลา</a></li>
+          <li><a class="starttext" href="#boka">จองเวลา</a></li>
           <li><a class="starttext" href="#topbeh">การนวดแบบต่างๆ</a></li>
           <li><a class="starttext" href="#topgal">แกลเลอรี่</a></li>
-          <li><a class="starttext" onclick="botFunction()" >ติดต่อ/สอบถาม</a></li>
-        </ul>
+          <li><a class="starttext" onclick="botFunction()" href="#topkon" >ติดต่อ/สอบถาม</a></li>
 
+        </ul>
 
     </div>
   <img onclick="topFunction()" class="btt" src="../svg/backtotop.svg" alt="btt">
@@ -45,20 +44,21 @@ window.scrollTo(0,document.querySelector('#scroll').scrollHeight);
 <div class="welcome">
 <div class="weltext">
 <h1 id="frontheadline">ยินดีต้อนรับ!</h1>
-<p id="fronttext">สัมผัสประสบการณ์และความรู้สึก<br>กับการนวดแผนไทยที่ดีที่สุดใน Åmål!</p>
-
+<p id="fronttext">สัมผัสประสบการณ์และความรู้สึก<br>
+  กับการนวดแผนไทยที่ดีที่สุดใน Åmål!</p>
 </div>
 </div>
 
 <div class="ulcnotainer ululcnotainer">
 
+
   <ul>
     <li><a href="#ommigs">เกี่ยวกับฉัน</a></li>
     <li><a href="#pristop">ราคา</a></li>
-    <li><a href="#topboka">จองเวลา</a></li>
+    <li><a href="#boka">จองเวลา</a></li>
     <li><a href="#topbeh">การนวดแบบต่างๆ</a></li>
     <li><a href="#topgal">แกลเลอรี</a></li>
-    <li><a onclick="botFunction()" >ติดต่อ/สอบถาม</a></li>
+    <li><a onclick="botFunction()" href="#topkon" >ติดต่อ/สอบถาม</a></li>
   </ul>
 </div>
 

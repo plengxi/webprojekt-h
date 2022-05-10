@@ -43,44 +43,46 @@ padding:0rem;
         }
         .prisline {
           height: 3px;
-          min-width: 10.453rem;
+          min-width: 6.453rem;
           background: #F4CB3C;
           border-radius: 3px;
         }
 
 }
-
-
-.pris{
+.prisbackground {
   padding: 0.8rem;
-//  filter:blur(5px);
+  //  filter:blur(5px);
   box-shadow: inset 0 0 80rem rgba(255, 255, 255, .3);
   box-shadow: 0 0 1rem 0.2rem rgba(44,18,41,1);
   background-color: rgb(0,0,0); /* Fallback color */
-background-color: rgba(97,81,95, 0.5); /* Black w/opacity/see-through */
-border-radius: 0.938rem;
-  display: grid;
-  align-items: center;
-  justify-items: stretch;
-  grid-template-columns: 1fr 1fr;
+  background-color: rgba(97,81,95, 0.5); /* Black w/opacity/see-through */
+  border-radius: 0.938rem;
   margin-left:1rem;
   margin-right:1rem;
   margin-top: 3rem;
   text-align: center;
   margin-bottom:3rem;
   padding-bottom:0;
-  .move {
-    text-align: left;
-  }
+
+  .pris{
+    display: grid;
+    align-items: center;
+    justify-items: stretch;
+    grid-template-columns: 1fr 1fr;
+    .move {
+      text-align: left;
+    }
     p{
       font-size:0.938rem;
       letter-spacing: 0.11256rem;
       word-spacing: 0.15rem;
     }
-      .price{
-          text-align: right;
-      }
+    .price{
+      text-align: right;
+    }
+  }
 }
+
 
 
 
@@ -186,42 +188,89 @@ h2 {
   font-size: 1rem;
 }
 
-p {
 
-}
 
+//media
 @media (min-width: 500px) {
   #priss {
+    .prisbackground{
+      width: 70% !important;
+      margin:auto;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      .pris{
+
+      }
+      .price{
+      width: 12rem !important;
+      }
+    }
+
     .giftcontainer {
-      height: 16.5rem;
+      height: 12.5rem;
+      margin-left:4rem;
+      margin-right:4rem;
     }
   }
 }
 
 @media (min-width: 600px) {
   #priss {
-    .pris {
-      gap: 1rem;
+    .prisbackground {
+
+      .pris {
+        gap: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        p{
+        font-size: 1.063rem !important;
+
+        }
+      }
+
     }
     .giftcontainer {
-      height: 18.5rem;
+      min-height:15.5rem;
+      p{
+        font-size: 1.3rem !important;
+      }
     }
   }
 }
 
 @media (min-width: 700px) {
   #priss {
-    .pris {
-      p {
-        font-size: 1.5rem;
-        letter-spacing: 0.135rem;
-        word-spacing: 0.18rem;
+    .prisbackground {
+        width: 70% !important;
+        margin:auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        .pris{
+          .move{
+          }
+          .price{
+          width: 15rem !important;
+          display: flex;
+          justify-content: flex-end;
+          align-content: flex-end;
+          p {
+            font-size: 1.5rem;
+            letter-spacing: 0.135rem;
+            word-spacing: 0.18rem;
 
-        span {
-          font-size: 1.125rem !important;
+            span {
+              font-size: 1.125rem !important;
+            }
+          }
         }
-      }
+        }
+
+
     }
+  }
+
     .giftcontainer {
       height: 18.5rem;
 
@@ -235,13 +284,27 @@ p {
       }
     }
   }
-}
+
 
 @media (min-width: 768px) {
   #priss {
-    .pris {
-
+.prisbackground{
+  min-width:60% !important;
+  .pris{
+    margin:auto;
+    .move{
+      font-size: 1.3rem !important;
+      margin-left:1rem;
     }
+    .price{
+      font-size: 1.3rem !important;
+      margin-left:0rem;
+      span{
+          font-size: 1.3rem !important;
+      }
+    }
+  }
+}
     .giftBoka {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -249,8 +312,27 @@ p {
       margin-top: 5rem;
 
       .giftcontainer {
-        height: 16.5rem;
+        height: 8.5rem;
         order: 2;
+        min-width:20rem;
+        margin-left:0rem;
+        margin-right:2rem;
+        background-image:
+          linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.87) 80%),
+          url('../img/giftcard.jpg');
+        .köptext{
+          font-size: 1.5rem !important;
+        }
+      }
+    }
+    .bokacontainer{
+      .sc{
+        p#sms{
+          font-size: 1.5rem !important;
+        }
+        p#tel{
+          font-size: 1.5rem !important;
+        }
       }
     }
   }
@@ -258,28 +340,55 @@ p {
 
 @media (min-width: 900px) {
   #priss {
-    .pris {
-      margin-left: 5rem;
-      margin-right: 5rem;
-
-    }
-    .giftBoka {
-      margin-left: 5rem;
-      margin-right: 5rem;
-
+    .prisbackground {
+  width:50% !important;
     }
   }
 }
 
-@media (min-width: 1100px) {
-  #priss {
-    .pris {
-      margin-left: 7rem;
-      margin-right: 7rem;
-      gap: 1.5rem;
+@media (min-width: 100px){
+  #priss{
+    min-width:60% !important;
+    .pris{
 
+      .price{
+        margin-left:1rem !important;
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 1100px) {
+#priss {
+
+.prishead{
+  h1{
+    font-size: 4rem;
+    span{
+      font-size: 4.5rem!important;
+    }
+  }
+  .prisline{
+    height: 4px;
+    min-width: 10.146rem;
+    margin-top:1rem;
+  }
+}
+
+  .prisbackground {
+    .pris {
+      gap: 1.5rem;
+      .move{
+        font-size: 1.35rem!important;
+      }
+.price{
+  margin-left:3rem !important;
+  font-size: 1.35rem !important;
+}
       p {
-        font-size: 1.75rem;
+        font-size: 1.35rem !important;
         letter-spacing: 0.135rem;
         word-spacing: 0.18rem;
 
@@ -287,36 +396,344 @@ p {
           font-size: 1.125rem !important;
         }
       }
-
-    }
-    .giftBoka {
-      margin-left: 7rem;
-      margin-right: 7rem;
-
-      .giftcontainer {
-        height: 18.5rem;
-        margin: 0 0 0 0;
-
-        p {
-          font-size: 1.75rem;
-        }
-      }
-      .sc {
-        p {
-          font-size: 1.75rem;
-        }
-      }
     }
   }
+    .giftBoka{
+      .giftcontainer{
+        margin-right:6rem;
+        min-height: 16.5rem;
+      }
+      .bokacontainer{
+        .bokhead{
+          h1{
+            font-size: 4rem !important;
+            margin-top:0;
+            span{
+              font-size: 4.5rem !important;
+            }
+
+          }
+          .bokline{
+            height: 4px;
+            min-width: 16.146rem;
+            margin-top:1rem;
+          }
+        }
+      }
+    }
+    }
+  }
+
+
+
+@media (min-width: 1200px) {
+  #priss {
+
+    .prisbackground {
+        .move{
+          font-size: 1.45rem!important;
+          margin-left:4rem !important;
+        }
+  .price{
+    margin-left:7rem;
+    font-size: 1.45rem !important;
+  }
+        p {
+          font-size: 1.45rem !important;
+          letter-spacing: 0.135rem;
+          word-spacing: 0.18rem;
+
+          span {
+            font-size: 1.125rem !important;
+          }
+        }
+      }
+      .giftBoka{
+        .giftcontainer{
+          margin-right:9rem;
+          min-height: 16.5rem;
+        }
+        .bokacontainer{
+          .bokhead{
+            h1{
+              font-size: 4rem !important;
+              margin-top:0;
+              span{
+                font-size: 4.5rem !important;
+              }
+
+            }
+            .bokline{
+              height: 4px;
+              min-width: 16.146rem;
+              margin-top:1rem;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+@media (min-width:1400px){
+  #priss {
+
+    .prisbackground {
+      min-width: 50% !important;
+        .move{
+          font-size: 1.45rem!important;
+          margin-left:4rem !important;
+        }
+  .price{
+    margin-left:7rem;
+    font-size: 1.45rem !important;
+  }
+        p {
+          font-size: 1.45rem !important;
+          letter-spacing: 0.135rem;
+          word-spacing: 0.18rem;
+
+          span {
+            font-size: 1.125rem !important;
+          }
+        }
+      }
+      .giftBoka{
+        .giftcontainer{
+          margin-right:9rem;
+          min-height: 16.5rem;
+        }
+        .bokacontainer{
+          .bokhead{
+            h1{
+              font-size: 4rem !important;
+              margin-top:0;
+              span{
+                font-size: 4.5rem !important;
+              }
+
+            }
+          }
+        }
+      }
+    }
+
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1600px) { //kan ej ändra fontSize ??
   #priss {
-    .giftBoka {
-      .giftcontainer {
-        height: 21.5rem;
 
+    .prisbackground {
+p{
+  font-size: 5rem !important;
+}
+      }
+      .giftBoka{
+        .giftcontainer{
+          margin-right:13rem;
+          min-height: 16.5rem;
+        }
+
+            }
+          }
+}
+
+
+
+
+
+
+@media (min-width: 1700px) {
+  #priss {
+
+  .prishead{
+    h1{
+      font-size: 4rem;
+      span{
+        font-size: 4.5rem!important;
+      }
+    }
+    .prisline{
+      height: 4px;
+      min-width: 10.146rem;
+      margin-top:1rem;
+    }
+  }
+
+    .prisbackground {
+      .pris {
+        gap: 1.5rem;
+        .move{
+          font-size: 2rem!important;
+        }
+  .price{
+    margin-left:7rem !important;
+    font-size: 2rem !important;
+
+      span {
+        font-size: 2rem !important;
       }
     }
   }
+
+      }
+
+      .giftBoka{
+        .giftcontainer{
+          margin-right:15rem;
+          min-height: 19.5rem;
+          p.köptext{
+            font-size: 2rem !important;
+          }
+        }
+        .bokacontainer{
+          .sc{
+            #sms{
+              font-size: 2rem !important;
+            }
+            #tel{
+              font-size: 2rem !important;
+            }
+          }
+
+          .bokhead{
+            h1{
+              font-size: 4rem !important;
+              margin-top:0;
+              span{
+                font-size: 4.5rem !important;
+              }
+
+            }
+            .bokline{
+              height: 4px;
+              min-width: 16.146rem;
+              margin-top:1rem;
+            }
+          }
+        }
+      }
+    }
+
+}
+
+
+@media (min-width: 1800px) {
+  #priss {
+    .prisbackground {
+      .pris {
+        gap: 1.5rem;
+        .move{
+          font-size: 2rem!important;
+        }
+  .price{
+    margin-left:8rem !important;
+    font-size: 2rem !important;
+
+      span {
+        font-size: 2rem !important;
+      }
+    }
+  }
+
+      }
+
+      .giftBoka{
+        .giftcontainer{
+          margin-right:17rem;
+          min-height: 19.5rem;
+          p.köptext{
+            font-size: 2rem !important;
+          }
+        }
+        .bokacontainer{
+          .sc{
+            #sms{
+              font-size: 2rem !important;
+            }
+            #tel{
+              font-size: 2rem !important;
+            }
+          }
+
+          .bokhead{
+            h1{
+              font-size: 4rem !important;
+              margin-top:0;
+              span{
+                font-size: 4.5rem !important;
+              }
+
+            }
+            .bokline{
+              height: 4px;
+              min-width: 16.146rem;
+              margin-top:1rem;
+            }
+          }
+        }
+      }
+    }
+
+}
+
+
+
+@media (min-width: 1900px) {
+  #priss {
+    .prisbackground {
+      .pris {
+        gap: 1.5rem;
+        .move{
+          font-size: 2rem!important;
+        }
+  .price{
+    margin-left:9rem !important;
+    font-size: 2rem !important;
+
+      span {
+        font-size: 2rem !important;
+      }
+    }
+  }
+
+      }
+
+      .giftBoka{
+        .giftcontainer{
+          margin-right:17rem;
+          min-height: 19.5rem;
+          p.köptext{
+            font-size: 2rem !important;
+          }
+        }
+        .bokacontainer{
+          .sc{
+            #sms{
+              font-size: 2rem !important;
+            }
+            #tel{
+              font-size: 2rem !important;
+            }
+          }
+
+          .bokhead{
+            h1{
+              font-size: 4rem !important;
+              margin-top:0;
+              span{
+                font-size: 4.5rem !important;
+              }
+
+            }
+            .bokline{
+              height: 4px;
+              min-width: 16.146rem;
+              margin-top:1rem;
+            }
+          }
+        }
+      }
+    }
+
 }

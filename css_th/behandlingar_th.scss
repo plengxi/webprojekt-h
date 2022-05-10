@@ -348,15 +348,19 @@ background: linear-gradient(90deg, rgba(231,223,230,1) 16%, rgba(150,126,147,0.8
       }
       .container1 {
         height: 20rem;
+        .text1{
+          h3{
+            min-width:40rem !important;
+            
+          }
+
+        }
       }
       .container2 {
         height: 20rem;
       }
       .container3 {
         height: 19rem;
-        h3{
-          min-width:40rem;
-        }
       }
     }
   }

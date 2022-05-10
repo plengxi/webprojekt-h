@@ -27,15 +27,15 @@ window.scrollTo(0,document.querySelector('#scroll').scrollHeight);
         <ul>
 
           <img style="display: none;" class="pcshow" src="../svg/logo.svg" alt="logo">
+
           <li><a class="starttext" href="#ommigs">OM MIG</a></li>
           <li><a class="starttext" href="#pristop">PRISER</a></li>
-          <li><a class="starttext" href="#topboka">BOKA TID</a></li>
+          <li><a class="starttext" href="#tomt">BOKA TID</a></li>
           <li><a class="starttext" href="#topbeh">BEHANDLINGAR</a></li>
           <li><a class="starttext" href="#topgal">GALLERI</a></li>
-          <li><a class="starttext" onclick="botFunction()" >KONTAKT</a></li>
+          <li><a class="starttext" onclick="botFunction()" href="#topkon" >KONTAKT</a></li>
 
         </ul>
-
 
     </div>
   <img onclick="topFunction()" class="btt" src="../svg/backtotop.svg" alt="btt">
@@ -55,10 +55,10 @@ Känslor som du aldrig har haft innan.</p>
   <ul>
     <li><a href="#ommigs">OM MIG</a></li>
     <li><a href="#pristop">PRISER</a></li>
-    <li><a href="#topboka">BOKA TID</a></li>
+    <li><a href="#boka">BOKA TID</a></li>
     <li><a href="#topbeh">BEHANDLINGAR</a></li>
     <li><a href="#topgal">GALLERI</a></li>
-    <li><a onclick="botFunction()" >KONTAKT</a></li>
+    <li><a onclick="botFunction()" href="#topkon" >KONTAKT</a></li>
   </ul>
 </div>
 

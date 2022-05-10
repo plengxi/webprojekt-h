@@ -45,8 +45,8 @@ window.scrollTo(0,document.querySelector('#scroll').scrollHeight);
 <div class="welcome">
 <div class="weltext">
 <h1 id="frontheadline">Welcome!</h1>
-<p id="fronttext">Uppleva Åmåls bästa thaimassage!<br>
-Känslor som du aldrig har haft innan.</p>
+<p id="fronttext">Experience feelings you never have<br>
+  before at Åmål's best Thai massage!</p>
 </div>
 </div>
 

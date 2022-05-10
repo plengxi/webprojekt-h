@@ -84,13 +84,13 @@ function hide() {
 
 <div>
 
-  <img class="decor2" id="deco" src="../svg/thaidecor.svg" alt="decoration">
+  <img class="decor" id="deco" src="../svg/thaidecor.svg" alt="decoration">
 
 </div>
 
 
 </div>
 
-<img class="decor1" id="showdeco "src="../svg/thaidecor.svg" alt="decoration">
+<img class="decor2" id="showdeco "src="../svg/thaidecor.svg" alt="decoration">
 
 </section>

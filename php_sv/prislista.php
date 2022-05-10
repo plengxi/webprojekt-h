@@ -32,7 +32,7 @@
     <p class="move">*Ansiktsbehandling</p>
     <p class="price">300 kr/45 min</p>
 
-    <p class="tomt"></p>
+    <p id="tomt"></p>
     <p class="price"><span style="color:red; font-size:0.8rem">**Kvitto finns<span></p>
     </div>
 

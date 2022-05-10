@@ -32,7 +32,7 @@ box-sizing: border-box;
     position: absolute;
     top: 2rem;
     right: -5rem;
-    width: 16rem;
+    width: 14rem;
 
     &:nth-child(1) {
       left: -5rem;
@@ -215,7 +215,9 @@ color:black;
 
           #ommigHeadline {
             margin-top: 12rem;
-            margin-right: 3rem;
+          //  margin-right: 3rem;
+          font-size: 3.5rem;
+
 
           }
         }
@@ -258,7 +260,7 @@ color:black;
           padding-left: 3rem;
 
           #ommigHeadline {
-            margin-right: 4.5rem;
+            //margin-right: 4.5rem;
           }
         }
       }
@@ -284,8 +286,9 @@ color:black;
 
 
           #ommigHeadline {
-            margin-right: 5.5rem;
+            //margin-right: 5.5rem;
             margin-top: 12rem;
+            font-size: 4rem !important;
           }
         }
       }
@@ -301,13 +304,15 @@ color:black;
         margin-bottom: 9%;
 
         .ommigHeadlineAndPic {
-          padding-left: 6rem;
+          //padding-left: 6rem;
           margin-top: 15rem;
+          padding-right:3.5rem;
 
 
           #ommigHeadline {
-            margin-right: 5.5rem;
+            //margin-right: 5.5rem;
             margin-top: 12rem;
+
           }
         }
       }
@@ -321,9 +326,8 @@ color:black;
       .ommigheadflex {
         .ommigHeadlineAndPic {
           #ommigHeadline {
-            margin-right: 7rem;
-            font-size: 3rem;
-
+          //  margin-right: 7rem;
+          font-size: 4.5rem !important;
           }
         }
       }
@@ -355,19 +359,20 @@ color:black;
       .ommigheadflex {
         .ommigHeadlineAndPic {
           #ommigHeadline {
-            margin-right: 8rem;
-            //font-size: 3rem;
+            //margin-right: 8rem;
+            font-size: 5rem !important;
 
           }
         }
       }
       #ommigText {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
 
         .pageDiv {
           display: grid;
           grid-template-columns: 1fr 1fr;
+          padding: 0 3rem 0 3rem;
 
           .part1 {
             margin: 0.5rem;
@@ -389,10 +394,14 @@ color:black;
             margin: 0.5rem;
             width: 85%;
             margin-left: 3rem;
+            margin-top:3.7rem;
+            p{
+              margin-bottom:0 !important;
+            }
 
             .Branch {
               .row1 {
-                margin-top: 2rem;
+                margin-top: -2rem !important;
                 h2 {
                   //font-size: 1.75rem;
                 }
@@ -419,7 +428,7 @@ color:black;
 
         .ommigHeadlineAndPic {
           #ommigHeadline {
-            margin-right: 10rem;
+            //margin-right: 10rem;
 
 
           }
@@ -435,6 +444,76 @@ color:black;
     }
   }
 }
+
+
+@media (min-width:833px){
+  #ommigs {
+    .ommig {
+      .ommigheadflex {
+        .ommigHeadlineAndPic {
+          #ommigHeadline {
+            //margin-right: 8rem;
+            font-size: 5rem !important;
+
+          }
+        }
+      }
+      #ommigText {
+        padding-left: 0;
+        padding-right: 0;
+
+        .pageDiv {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding: 0 3rem 0 3rem;
+
+          .part1 {
+            margin: 0.5rem;
+            width: 95%;
+
+            #Hej  {
+              //font-size: 1.75rem;
+
+            }
+            #ommigheadlineUtbildning {
+              //font-size: 1.75rem;
+            }
+            p {
+              margin-top: 2rem;
+
+            }
+          }
+          .part2 {
+            margin: 0.5rem;
+            width: 85%;
+            margin-left: 3rem;
+            margin-top:1.7rem!important;
+            p{
+              margin-bottom:0 !important;
+            }
+
+            .Branch {
+              .row1 {
+                margin-top: -2rem !important;
+                h2 {
+                  //font-size: 1.75rem;
+                }
+              }
+              .row2 {
+                margin-top: 0.25rem;
+                h2 {
+                  //font-size: 1.75rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
 
 @media (min-width: 900px) {
   #ommigs {
@@ -455,9 +534,8 @@ color:black;
         .ommigHeadlineAndPic {
 
           #ommigHeadline {
-            margin-right: 13rem;
-
-
+            //margin-right: 13rem;
+            font-size: 5.5rem !important;
           }
         }
       }
@@ -480,10 +558,15 @@ color:black;
         }
       }
       .ommigheadflex {
+        margin-bottom: 5%;
+
         .ommigHeadlineAndPic {
+          margin-top: 18rem;
+          padding-left: 5rem;
+
           #ommigHeadline {
-            font-size: 4rem;
-            margin-right: 13rem;
+            font-size: 6rem !important;
+          //  margin-right: 13rem;
 
           }
         }
@@ -509,6 +592,7 @@ color:black;
 
             #ommigheadlineUtbildning {
               font-size: 1.75rem;
+              margin-top:0.8rem;
             }
 
             p {
@@ -520,17 +604,25 @@ color:black;
 
             .Branch {
               .row1 {
+                display:flex !important;
+                align-items: baseline !important;
+
                 h2 {
                   font-size: 1.75rem;
                 }
               }
               .row2 {
+                display:flex !important;
+                align-items: baseline !important;
                 h2 {
                   font-size: 1.75rem;
                 }
               }
             }
           }
+        }
+        .dots{
+          margin-top:3rem;
         }
       }
     }
@@ -559,8 +651,8 @@ color:black;
           margin-top: 22rem;
 
           #ommigHeadline {
-            margin-right: 15rem;
-
+            //margin-right: 15rem;
+            font-size: 6.5rem !important;
           }
         }
       }
@@ -576,8 +668,8 @@ color:black;
 
         .ommigHeadlineAndPic {
           #ommigHeadline {
-            margin-right: 19rem;
-
+          //  margin-right: 19rem;
+          font-size: 7rem !important;
 
           }
           .profile {
@@ -591,15 +683,39 @@ color:black;
 @media (min-width: 1300px) {
   #ommigs {
     .ommig {
+      .flowersContainer {
+
+        .flower {
+          right: -9rem;
+          width: 39rem;
+
+          &:nth-child(1) {
+            left: -9rem;
+          }
+        }
+      }
+
       .ommigheadflex {
         .ommigHeadlineAndPic {
           #ommigHeadline {
-            margin-right: 22rem;
-
-
+            //margin-right: 22rem;
+            font-size: 7.5rem !important;
           }
           .profile {
             margin-right: -1rem;
+          }
+        }
+      }
+      #ommigText {
+        .pageDiv {
+            padding: 0;
+          .part1 {
+            width: 80%;
+            padding-left: 5rem;
+          }
+          .part2 {
+            width: 80%;
+            margin-left: 3rem;
           }
         }
       }
@@ -610,16 +726,45 @@ color:black;
 @media (min-width: 1400px) {
   #ommigs {
     .ommig {
+
+      .flowersContainer {
+
+        .flower {
+          right: -13rem;
+          width: 45rem;
+          margin-top: 5rem;
+
+          &:nth-child(1) {
+            display: none;
+          }
+        }
+      }
+
       .ommigheadflex {
 
         .ommigHeadlineAndPic {
+          margin-top: 13rem;
           #ommigHeadline {
-            margin-right: 24rem;
-
-
+            font-size: 8rem !important;
           }
           .profile {
             margin-right: -1rem;
+            width: 90%;
+    margin-right: 5rem;
+          }
+        }
+      }
+      #ommigText {
+        .pageDiv {
+        padding-left:5rem;
+          .part1 {
+            width: 85%;
+            padding-left: 0;
+          }
+          .part2 {
+            width: 85%;
+            margin:0!important;
+            margin-top:2rem !important;
           }
         }
       }
@@ -634,11 +779,12 @@ color:black;
       .flowersContainer {
 
         .flower {
-          right: -11rem;
-          width: 44rem;
+          right: -13rem;
+          width: 53rem;
+          margin-top: 0rem;
 
           &:nth-child(1) {
-            left: -11rem;
+            display: none;
           }
         }
       }
@@ -647,13 +793,102 @@ color:black;
         margin-bottom: 3.4%;
 
         .ommigHeadlineAndPic {
-          margin-top: 24rem;
+          margin-top: 10rem;
 
           #ommigHeadline {
-            margin-right: 28rem;
-
+          font-size: 8.5rem !important;
           }
         }
+      }
+
+            #ommigText {
+              .pageDiv {
+                margin-top: 5rem;
+
+                .part1 {
+                  width: 85%;
+                  padding-left: 0rem;
+                }
+                .part2 {
+                  width: 85%;
+                  .Branch {
+                    .row2 {
+                    }
+                  }
+                }
+              }
+              .dots {
+                margin: 3rem 0 2rem 0;
+                img {
+                  width: 5rem;
+
+                }
+              }
+            }
+      #ommigText {
+
+      }
+    }
+  }
+}
+
+@media (min-width: 1575px){
+  #ommigs {
+    .ommig {
+
+      .flowersContainer {
+
+        .flower {
+          right: -13rem;
+          width: 53rem;
+          margin-top: 5rem;
+
+          &:nth-child(1) {
+            display: none;
+          }
+        }
+      }
+
+
+      .ommigheadflex {
+        margin-bottom: 3.4%;
+        z-index: 55;
+
+        .ommigHeadlineAndPic {
+          margin-top: 17rem;
+
+          #ommigHeadline {
+          font-size: 9rem !important;
+          }
+        }
+      }
+
+            #ommigText {
+              .pageDiv {
+                margin-top: 5rem;
+
+                .part1 {
+                  width: 85%;
+                  padding-left: 0rem;
+                }
+                .part2 {
+                  width: 85%;
+                  .Branch {
+                    .row2 {
+                    }
+                  }
+                }
+              }
+              .dots {
+                margin: 3rem 0 2rem 0;
+                img {
+                  width: 5rem;
+
+                }
+              }
+            }
+      #ommigText {
+
       }
     }
   }
@@ -666,11 +901,12 @@ color:black;
       .flowersContainer {
 
         .flower {
-          right: -12rem;
-          width: 46rem;
+          right: -13rem;
+          width: 53rem;
+          margin-top: 5rem;
 
           &:nth-child(1) {
-            left: -12rem;
+            display: none;
           }
         }
       }
@@ -679,10 +915,134 @@ color:black;
         margin-bottom: 3%;
 
         .ommigHeadlineAndPic {
-          margin-top: 26rem;
+          margin-top: 15rem;
 
           #ommigHeadline {
-            margin-right: 31rem;
+      font-size: 9.5rem !important;
+z-index:55;
+          }
+        }
+      }
+      #ommigText {
+        .pageDiv {
+          margin-top: 5rem;
+
+          .part1 {
+            width: 85%;
+            h2{
+              font-size: 3rem!important;
+            }
+            p{
+              font-size: 2rem!important;
+              line-height: 3rem !important;
+            }
+          }
+          .part2 {
+            width: 90%;
+            padding-right:2rem !important;
+            h2{
+              font-size: 2.5rem!important;
+            }
+            p{
+              font-size: 2rem!important;
+              line-height: 3rem !important;
+            }
+            .Branch {
+              .row2 {
+              }
+            }
+          }
+        }
+        .dots {
+          margin: 5rem 0 4rem 0;
+          img {
+            width: 8rem;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1700px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+
+        .flower {
+          right: -13rem;
+          width: 53rem;
+          margin-top: 9rem;
+
+          &:nth-child(1) {
+            display: none;
+          }
+        }
+      }
+
+      .ommigheadflex {
+        margin-bottom: 3%;
+
+        .ommigHeadlineAndPic {
+          margin-top: 15rem;
+          padding-left: 6rem;
+        .profile{
+          width:90%;
+        }
+          #ommigHeadline {
+          font-size: 9.5rem !important;
+          }
+        }
+      }
+      #ommigText {
+        .pageDiv {
+          .part1 {
+            width: 85%;
+          }
+          .part2 {
+            width: 90%;
+            padding-right:0 !important;
+            .Branch {
+              .row2 {
+                display: flex;
+                align-items: flex-start;
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1800px) {
+  #ommigs {
+    .ommig {
+      .flowersContainer {
+
+        .flower {
+          right: -13rem;
+          width: 53rem;
+          margin-top: 5rem;
+
+          &:nth-child(1) {
+            display: none;
+          }
+        }
+      }
+
+      .ommigheadflex {
+        margin-bottom: 3%;
+
+        .ommigHeadlineAndPic {
+          margin-top: 15rem;
+          padding-left: 11rem;
+
+          #ommigHeadline {
+            font-size: 10rem!important;
 
           }
         }

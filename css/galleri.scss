@@ -138,10 +138,21 @@ body {
 }
 
 @media (min-width: 768px) {
+    .headlinecontainer{
+      .headline{
+        margin-top: 5rem;
 
+      }
+    }
+
+    .flip{
+      margin-bottom:5rem;
+    }
   .decor1 {
     display: block;
     margin-bottom: 3rem;
+    margin-top: -8rem;
+    z-index: -9999;
   }
   .decor2 {
     display: block;
@@ -151,8 +162,14 @@ body {
     width: 97%;
     z-index: -1;
     visibility: visible;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
+  .decor#deco{
+    width:97%;
+    margin:auto;
+    margin-bottom: 2rem;
+  }
+
 
   .firstpics {
     display: grid;
@@ -216,4 +233,34 @@ body {
     }
   }
 
+}
+
+@media (min-width: 1100px){
+#gals{
+  .headlinecontainer{
+    margin-top:5rem;
+    h1 {
+         font-size: 4rem !important;
+      }
+        span{
+          font-size: 4.5rem !important;
+        }
+
+          .line{
+              margin-top:1rem;
+              height:4px;
+            min-width:12rem;
+          }
+    }
+
+    #visamercontainer{
+      #first.visamer{
+            font-size: 2rem;
+      }
+
+  }
+  .second a.visamer{
+    font-size: 2rem;
+  }
+}
 }

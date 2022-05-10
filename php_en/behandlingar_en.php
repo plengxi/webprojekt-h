@@ -1,4 +1,3 @@
-
 <!-- <link rel="stylesheet" href="../css/behandlingar.min.css"> -->
 
 <section id="behs">
@@ -22,16 +21,16 @@
   <h3>Footmassage<br>(Reflexology)</h3>
 </div>
 </div>
-<p>Because all parts of the body synchronized with each other and by pressing
+  <p>Because all parts of the body synchronized with each other and by pressing
   the right point, it can affect the different organs of the body. There are a
   lot of nerves in the feet, therefore foot massage is popular in mental health
    for example: blood circulation, better sleep and reduces depression. Because the nerves
    are sensitive, therefore, the process needs to be performed by a trained person.</p>
 
 <div class="special">
-  <p>Back massage in itself is good for obvious things such as reducing stress. But it also has a soothing effect
+<p>Back massage in itself is good for obvious things such as reducing stress. But it also has a soothing effect
 in the muscles of the back and relieves long-term pain. The best thing is to speed healing in the back that helps both the elderly
-and younger people</p></div>
+and younger people.</p></div>
   <div class="container2">
     <div class="text2">
 <h3>Backmassage</h3>

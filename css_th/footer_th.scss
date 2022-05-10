@@ -178,6 +178,7 @@ textarea#frågor{
    margin-left: auto;
    margin-right: auto;
   margin-top:2rem;
+  width:20%
 }
 
 
@@ -254,6 +255,58 @@ textarea#frågor{
   }
 }
 
+@media (min-width:1000px){
+  .sec1{
+    p{
+      font-size: 1.35rem !important;
+    }
+  }
+.adresstext{
+  p{
+    font-size: 1.35rem !important;
+  }
+}
+  h1{
+    font-size: 2.188rem !important;
+  }
+  h2{
+    font-size: 1.6rem !important;
+  }
+  h3{
+    font-size: 1.5rem !important;
+  }
+
+  form{
+  label{
+  font-size: 1.35rem;
+  }
+  .till {
+    #till{
+      font-size: 1rem;
+    }
+  }
+
+  textarea#frågor{
+    font-size: 1rem;
+  }
+
+  .but{
+    #buttn{
+      font-size: 1rem;
+    }
+
+   }
+  }
+  .end{
+    p{
+      font-size: 0.8rem !important;
+      min-width: 50%;
+    }
+  }
+}
+
+
+
 @media(min-width:1024px){
 
 .sec3{
@@ -272,6 +325,25 @@ textarea#frågor{
    }
   }
 }
+
+@media (min-width:1100px){
+.sec1{
+  h1{
+    font-size: 3rem !important;
+  }
+  .linepris{
+    min-width:24rem;
+  }
+}
+.sec3{
+  .mapouter{
+    .gmap_canvas{
+      margin-left:0rem !important;
+    }
+  }
+}
+}
+
 
 @media(min-width:1440px){
 
@@ -325,6 +397,108 @@ form{
     }
   }
 }
+}
+
+@media (min-width:1700px){
+  .sec1{
+    p{
+      margin-top:2rem;
+        font-size: 2rem !important;
+    }
+    .head{
+      h1{
+        font-size: 4rem !important;
+      }
+      .linepris{
+        min-width:31rem;
+      }
+    }
+  }
+
+  .col2{
+  margin-top:4rem;
+  img.logofoot{
+    margin-top:5rem;
+  }
+  }
+
+  .sec3{
+    .mapouter{
+        .gmap_canvas{
+          border:0.3rem solid $secondcolor;
+          margin-left:0rem;
+
+        }
+     }
+    }
+  }
+
+
+.adresstext{
+  p{
+    font-size: 2rem !important;
+  }
+}
+  h1{
+    font-size: 4rem !important;
+  }
+
+  h2{
+    font-size: 3.8rem !important;
+  }
+  h3{
+    font-size: 2.5rem !important;
+  }
+
+.sec2{
+  .ram{
+    border:0.3rem solid white ;
+  }
+}
+  form{
+
+  label{
+  font-size: 2rem !important;
+  }
+
+  .till {
+    display: flex;
+    align-items: center;
+
+    #till{
+      width: -webkit-fill-available;
+      border:0.3rem solid #424242;
+      color: #3E3E3E;
+      font-size: 1.35rem!important;
+      min-height: 3rem;
+      text-align: center;
+    }
+  }
+
+  textarea#frågor{
+    font-size: 1.5rem !important;
+    border:0.3rem solid #424242;
+
+  }
+
+  .but{
+    margin-top:1rem;
+    #buttn{
+      background-color: #55184F; //brighter purple
+      color: white;
+      border-radius: 0.75rem;
+      width: 9rem;
+      height:3rem;
+      border:0.25rem solid white;
+      font-size: 1.5rem !important;
+    }
+    #buttn:hover{
+      background-color: #716167; //purpledust
+    }
+    #buttn:active{
+      background-color: #4CAF50;
+    }
+  }
 }
 
 @media(min-width:2560px){
