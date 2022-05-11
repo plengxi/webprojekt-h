@@ -1,4 +1,4 @@
-  <!--<link rel="stylesheet" href="../css/footer.min.css">-->
+<!--<link rel="stylesheet" href="../css/footer.min.css">-->
 <section id="topkon">
 
 
@@ -9,7 +9,7 @@
 <div class="columnsplit">
 <div  class="col1">
 
-  <div class="sec1">
+<div class="sec1">
 <div class="head">
 <h1>Kontaktinfo</h1>
 <div class="linepris"></div>
@@ -22,10 +22,10 @@
 <!--v2-->
 <div class="ram">
 <form method="post" action="email.php">
-  <div class="till"><label for="till">Till:</label><input type="text" id="till" name="till" style="min-width:12.5rem;"  value="benjawan.janngam@edu.alleskolan.eu" disabled></div><br>
-  <!--<div class="fran"><label for="från">Från:</label><input type="text" id="fran" name="fran" value=""></div><br>-->
-  <textarea name="message" type="text" id="frågor"  style="height:13rem;" placeholder="Skriv dina frågor här...|"></textarea>
-  <div class="but"><input id="buttn" type="submit" name"submit" value="Skicka"></div>
+<div class="till"><label for="till">Till:</label><input type="text" id="till" name="till" style="min-width:12.5rem;"  value="benjawan.janngam@edu.alleskolan.eu" disabled></div><br>
+<!--<div class="från"><label for="från">Från:</label><input type="text" id="fran" name="fran" placeholder="Skriv din epostadress här..."></div><br>-->
+<textarea name="message" type="text" id="frågor"  style="height:13rem;" placeholder="Skriv dina frågor här...|"></textarea>
+<div class="but"><input id="buttn" type="submit" name"submit" value="Skicka"></div>
 </form>
 </div>
 </div>
@@ -56,6 +56,7 @@
 
 </div>
 </section>
+
 
 </body>
 </html>
