@@ -8,7 +8,7 @@ function show()
   document.getElementById('hidden').style.display = 'block';
   document.getElementById('first').style.visibility = 'hidden';
   document.getElementById('showdeco ').style.display = 'none';
-  document.getElementById('deco').style.display = 'block';
+  document.getElementById('deco').style.display = 'none';
 
 }
 
@@ -47,7 +47,7 @@ function hide() {
   <img class="pics" src="../img/room1.1.jpg" alt="room">
   <img class="pics" src="../img/room2.2.jpg" alt="room">
   <img class="pics" src="../img/olja.jpg" alt="massageolja">
-  <img class="pics" src="../img/certifikat.jpeg" alt="certificate">
+  <img class="pics" src="../img/room2.jpg" alt="room">
   <img class="pics" id="tablet1" src="../img/tidning.jpg" alt="artikel">
   <img class="pics" id="tablet2" src="../img/room2.jpg" alt="room">
 
@@ -64,9 +64,8 @@ function hide() {
   <div class="firstpics another" >
 
     <img class="pics" id="tablet3" src="../img/tidning.jpg" alt="artikel">
-    <img class="pics" id="tablet4" src="../img/room2.jpg" alt="room">
+    <img class="pics" id="tablet4" src="../img/room2.3.jpg" alt="room">
     <img class="pics" src="../img/fotnerver.jpeg" alt="fotnerver">
-    <img class="pics" src="../img/room2.3.jpg" alt="room">
     <img class="pics" src="../img/handgjordakort.jpg" alt="presentkort">
     <img class="pics" src="../img/handduksvan.jpg" alt="svan">
     <img class="pics" src="../img/olja3.jpg" alt="oljor">

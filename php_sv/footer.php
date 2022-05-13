@@ -60,22 +60,5 @@
 </div>
 </section>
 
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCT-SR-Uukic-BqnIIUi0S5yr37G7RYSi0",
-  authDomain: "card-is-card.firebaseapp.com",
-  projectId: "card-is-card",
-  storageBucket: "card-is-card.appspot.com",
-  messagingSenderId: "561930379827",
-  appId: "1:561930379827:web:9ba4e3c5472d965d9d3946"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 </body>
 </html>
