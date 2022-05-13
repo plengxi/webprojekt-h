@@ -1,4 +1,4 @@
-<!--<link rel="stylesheet" href="../css/footer.min.css">-->
+  <!--<link rel="stylesheet" href="../css/footer.min.css">-->
 <section id="topkon">
 
 
@@ -9,7 +9,7 @@
 <div class="columnsplit">
 <div  class="col1">
 
-<div class="sec1">
+  <div class="sec1">
 <div class="head">
 <h1>Kontaktinfo</h1>
 <div class="linepris"></div>
@@ -22,10 +22,13 @@
 <!--v2-->
 <div class="ram">
 <form method="post" action="email.php">
-<div class="till"><label for="till">Till:</label><input type="text" id="till" name="till" style="min-width:12.5rem;"  value="benjawan.janngam@edu.alleskolan.eu" disabled></div><br>
-<!--<div class="från"><label for="från">Från:</label><input type="text" id="fran" name="fran" placeholder="Skriv din epostadress här..."></div><br>-->
-<textarea name="message" type="text" id="frågor"  style="height:13rem;" placeholder="Skriv dina frågor här...|"></textarea>
-<div class="but"><input id="buttn" type="submit" name"submit" value="Skicka"></div>
+  <div class="till"><label for="till">Till:</label><input type="text" id="till" name="till" style="min-width:12.5rem;"  value="benjawan.janngam@edu.alleskolan.eu" disabled></div><br>
+<div class="from"><label for="from"> Ditt epost:</label><input type="text" id="from" name="from"></div><br>
+<div class="subject"><label for="subjext"> Rubrik:</label><input type="text" id="subject" name="subject"></div><br>
+
+
+  <textarea name="message" type="text" id="frågor"  style="height:13rem;" placeholder="Skriv dina frågor här...|"></textarea>
+  <div class="but"><input id="buttn" type="submit" name"submit" value="Skicka"></div>
 </form>
 </div>
 </div>
@@ -57,6 +60,22 @@
 </div>
 </section>
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCT-SR-Uukic-BqnIIUi0S5yr37G7RYSi0",
+  authDomain: "card-is-card.firebaseapp.com",
+  projectId: "card-is-card",
+  storageBucket: "card-is-card.appspot.com",
+  messagingSenderId: "561930379827",
+  appId: "1:561930379827:web:9ba4e3c5472d965d9d3946"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 </body>
 </html>
