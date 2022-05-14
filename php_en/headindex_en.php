@@ -30,10 +30,10 @@ window.scrollTo(0,document.querySelector('#scroll').scrollHeight);
           <img style="display: none;" class="pcshow" src="../svg/logo.svg" alt="logo">
           <li><a class="starttext" href="#ommigs">ABOUT ME</a></li>
           <li><a class="starttext" href="#pristop">PRICE</a></li>
-          <li><a class="starttext" href="#topboka">BOOK TIME</a></li>
+          <li><a class="starttext" href="#tomt">BOOK TIME</a></li>
           <li><a class="starttext" href="#topbeh">TREATMENTS</a></li>
           <li><a class="starttext" href="#topgal">GALLERY</a></li>
-          <li><a class="starttext" onclick="botFunction()" >CONTACT</a></li>
+          <li><a class="starttext" onclick="botFunction()" href="#till">CONTACT</a></li>
 
         </ul>
 

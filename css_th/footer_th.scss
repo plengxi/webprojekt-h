@@ -22,7 +22,7 @@ height: 1rem;
   h1{
     color:white;
     margin-bottom:0.3rem;
-    font-size: 2.188rem;
+    font-size: 2.188rem !important;
     letter-spacing: 0.26256rem;
     margin-top:1rem;
     height: fit-content;
@@ -38,7 +38,7 @@ height: 1rem;
 
 .linepris {
   height: 3px;
-  max-width:16.495rem;
+  max-width:18.495rem;
   background: white;
   border-radius: 3px;
   margin-top:-0.5rem;
@@ -66,7 +66,7 @@ form{
 //  grid-template-rows: 1fr 1fr 1fr;
 label{
 font-weight: bold;
-font-size: 1.25rem;
+font-size: 1.25rem !important;
 letter-spacing: 0.15rem;
 }
 
@@ -76,12 +76,12 @@ letter-spacing: 0.15rem;
 
   #till{
     margin-left: 0.5rem;
-    width: -webkit-fill-available;
+  width: -webkit-fill-available;
     border-radius: 0.813rem;
     background-color: #575757;
     border:0.188rem solid #424242;
     color: #3E3E3E;
-    font-size: 0.8rem;
+    font-size: 80% !important;
     min-height: 2rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -89,7 +89,43 @@ letter-spacing: 0.15rem;
     letter-spacing: 0.05rem;
   }
 }
+.from {
+  display: flex;
+  align-items: center;
 
+  #from{
+    margin-left: 0.5rem;
+    width: -webkit-fill-available;
+    border-radius: 0.813rem;
+    border:0.188rem solid #424242;
+    color: #3E3E3E;
+    font-size: 80%!important;
+    min-height: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: 0.05rem;
+  }
+}
+.subject {
+  display: flex;
+  align-items: center;
+
+  #subject{
+    margin-left: 0.5rem;
+    width: -webkit-fill-available;
+    border-radius: 0.813rem;
+    border:0.188rem solid #424242;
+    color: #3E3E3E;
+    font-size: 80%!important;
+    min-height: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: 0.05rem;
+  }
+}
+}
 textarea#frågor{
   border-radius: 0.813rem;
   border:0.188rem solid #424242;
@@ -107,6 +143,7 @@ textarea#frågor{
   #buttn{
     background-color: #55184F; //brighter purple
     color: white;
+      font-size: 1.25rem !important;
     border-radius: 0.75rem;
     width: 8rem;
     height:2.3rem;
@@ -120,7 +157,7 @@ textarea#frågor{
   }
 }
 
-}
+
 
 .ram{
   background-color: $secondcolor;
@@ -141,7 +178,7 @@ textarea#frågor{
   justify-content: center;
     h2{
       color: $secondcolor;
-      font-size: 1.65rem;
+      font-size: 1.65rem !important;
       letter-spacing: 0.15rem;
       word-spacing: 0.2rem;
       margin-bottom: 0rem;
@@ -149,7 +186,7 @@ textarea#frågor{
     }
     p{
       margin-top:0.5rem;
-      font-size: 1.25rem;
+      font-size: 1.25rem!important;
       letter-spacing: 0.15rem;
       word-spacing: 0.2rem;
     }
@@ -243,7 +280,7 @@ textarea#frågor{
           }
       }
       img.logofoot{
-        margin-top:0rem;
+        margin-top:2rem;
       }
   }
 
@@ -278,16 +315,26 @@ textarea#frågor{
 
   form{
   label{
-  font-size: 1.35rem;
+  font-size: 1.35rem!important;
   }
   .till {
     #till{
-      font-size: 1rem;
+      font-size: 1rem !important;
+    }
+  }
+  .from {
+    #from{
+      font-size: 1rem !important;
+    }
+  }
+  .subject {
+    #subject{
+      font-size: 1rem !important;
     }
   }
 
   textarea#frågor{
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .but{
@@ -300,7 +347,7 @@ textarea#frågor{
   .end{
     p{
       font-size: 0.8rem !important;
-      min-width: 50%;
+      min-width: 60%;
     }
   }
 }
@@ -338,7 +385,7 @@ textarea#frågor{
 .sec3{
   .mapouter{
     .gmap_canvas{
-      margin-left:0rem !important;
+      margin-left:-2rem !important;
     }
   }
 }
@@ -362,7 +409,7 @@ font-size: 1.85rem;
     width:80%;
     margin:auto;
       h3{
-        font-size: 2rem;
+        //font-size: 2rem;
       }
   }
 
@@ -385,8 +432,12 @@ form{
   p{
     font-size: 1.45rem;
   }
-}
 
+}
+img.logofoot{
+  margin-top:0rem;
+  width:15%;
+}
 .end{
     margin-top:4rem;
     .linecopyright{
@@ -418,7 +469,7 @@ form{
   .col2{
   margin-top:4rem;
   img.logofoot{
-    margin-top:5rem;
+    margin-top:2rem;
   }
   }
 
@@ -436,29 +487,29 @@ form{
 
 .adresstext{
   p{
-    font-size: 2rem !important;
+    font-size: 2rem ;
   }
 }
   h1{
-    font-size: 4rem !important;
+    font-size: 4rem ;
   }
 
   h2{
-    font-size: 3.8rem !important;
+    font-size: 3.8rem;
   }
   h3{
-    font-size: 2.5rem !important;
+  font-size: 2.5rem ;
   }
 
 .sec2{
   .ram{
-    border:0.3rem solid white ;
+    //border:0.3rem solid white ;
   }
 }
   form{
 
   label{
-  font-size: 2rem !important;
+  font-size: 2rem ;
   }
 
   .till {
@@ -466,18 +517,30 @@ form{
     align-items: center;
 
     #till{
-      width: -webkit-fill-available;
-      border:0.3rem solid #424242;
+      //width: -webkit-fill-available;
+      //border:0.3rem solid #424242;
       color: #3E3E3E;
-      font-size: 1.35rem!important;
-      min-height: 3rem;
-      text-align: center;
+      font-size: 1.35rem//!important;
+      //min-height: 3rem;
+      //text-align: center;
+    }
+  }
+  .from {
+    #from{
+      font-size: 1.35rem //!important;
+      //min-height: 3rem;
+    }
+  }
+  .subject {
+    #subject{
+        font-size: 1.35rem //!important;
+        //min-height: 3rem;
     }
   }
 
   textarea#frågor{
-    font-size: 1.5rem !important;
-    border:0.3rem solid #424242;
+  //  font-size: 1.5rem ;
+    //border:0.3rem solid #424242;
 
   }
 
@@ -489,8 +552,8 @@ form{
       border-radius: 0.75rem;
       width: 9rem;
       height:3rem;
-      border:0.25rem solid white;
-      font-size: 1.5rem !important;
+    //  border:0.25rem solid white;
+      //font-size: 1.5rem !important;
     }
     #buttn:hover{
       background-color: #716167; //purpledust

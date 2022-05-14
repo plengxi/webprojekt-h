@@ -30,7 +30,7 @@ window.scrollTo(0,document.querySelector('#scroll').scrollHeight);
 
           <li><a class="starttext" href="#ommigs">เกี่ยวกับฉัน</a></li>
           <li><a class="starttext" href="#pristop">ราคา</a></li>
-          <li><a class="starttext" href="#boka">จองเวลา</a></li>
+          <li><a class="starttext" href="#tomt">จองเวลา</a></li>
           <li><a class="starttext" href="#topbeh">การนวดแบบต่างๆ</a></li>
           <li><a class="starttext" href="#topgal">แกลเลอรี่</a></li>
           <li><a class="starttext" onclick="botFunction()" href="#topkon" >ติดต่อ/สอบถาม</a></li>

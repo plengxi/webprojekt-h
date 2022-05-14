@@ -32,7 +32,7 @@
     <p class="move">*Facial treatment</p>
     <p class="price">300 kr/45 min</p>
 
-    <p class="tomt"></p>
+    <p id="tomt"></p>
     <p class="price"><span style="color:red; font-size:0.8rem">**Receipt available<span></p>
     </div>
 

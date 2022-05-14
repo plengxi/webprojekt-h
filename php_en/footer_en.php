@@ -1,3 +1,4 @@
+
 <!--<link rel="stylesheet" href="../css/footer.min.css">-->
 <section id="topkon">
 
@@ -21,11 +22,15 @@
 <h3><span style="color:#F5CB3C">OR</span> <span style="font-weight:500">leave the massages here!</span></h3>
 <!--v2-->
 <div class="ram">
-<form method="post" action="email.php">
+<form method="post" action="">
 <div class="till"><label for="till">To:</label><input type="text" id="till" name="till" style="min-width:12.5rem;"  value="benjawan.janngam@edu.alleskolan.eu" disabled></div><br>
-<!--<div class="från"><label for="från">Från:</label><input type="text" id="fran" name="fran" placeholder="Skriv din epostadress här..."></div><br>-->
-<textarea name="message" type="text" id="frågor"  style="height:13rem;" placeholder="Skriv dina frågor här...|"></textarea>
-<div class="but"><input id="buttn" type="submit" name"submit" value="Submit"></div>
+<div class="from"><label for="from"> Email:</label><input type="text" id="from" name="from" style="min-width:12.5rem;"></div><br>
+<div class="subject"><label for="subject"> Title:</label><input type="text" id="subject" name="subject" style="min-width:12.5rem;"></div><br>
+
+
+<textarea name="message" type="text" id="frågor"  style="height:13rem;" placeholder="write your question here...|"></textarea>
+<div class="but"><input id="buttn" type="submit" name"submit" value="Skicka"></div>
+
 </form>
 </div>
 </div>
@@ -56,5 +61,10 @@
 
 </div>
 </section>
+
+<?php
+require_once('email.php');
+?>
+
 </body>
 </html>

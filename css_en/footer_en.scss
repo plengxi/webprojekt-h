@@ -89,6 +89,45 @@ letter-spacing: 0.15rem;
     letter-spacing: 0.05rem;
   }
 }
+.from {
+  display: flex;
+  align-items: center;
+
+  #from{
+    margin-left: 0.5rem;
+    width: -webkit-fill-available;
+    border-radius: 0.813rem;
+    border:0.188rem solid #424242;
+    color: #3E3E3E;
+    font-size: 0.8rem;
+    min-height: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: 0.05rem;
+  }
+}
+.subject {
+  display: flex;
+  align-items: center;
+
+  #subject{
+    margin-left: 0.5rem;
+    width: -webkit-fill-available;
+    border-radius: 0.813rem;
+    border:0.188rem solid #424242;
+    color: #3E3E3E;
+    font-size: 0.8rem;
+    min-height: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: 0.05rem;
+  }
+}
+
+
+}
 
 textarea#frågor{
   border-radius: 0.813rem;
@@ -120,7 +159,7 @@ textarea#frågor{
   }
 }
 
-}
+
 
 .ram{
   background-color: $secondcolor;
@@ -282,6 +321,16 @@ textarea#frågor{
   }
   .till {
     #till{
+      font-size: 1rem;
+    }
+  }
+  .from {
+    #from{
+      font-size: 1rem;
+    }
+  }
+  .subject {
+    #subject{
       font-size: 1rem;
     }
   }
@@ -460,6 +509,18 @@ form{
       font-size: 1.35rem!important;
       min-height: 3rem;
       text-align: center;
+    }
+  }
+  .from {
+    #from{
+      font-size: 1.35rem !important;
+      min-height: 3rem;
+    }
+  }
+  .subject {
+    #subject{
+        font-size: 1.35rem !important;
+        min-height: 3rem;
     }
   }
 

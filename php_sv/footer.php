@@ -21,10 +21,10 @@
 <h3><span style="color:#F5CB3C">Eller</span> <span style="font-weight:500">skriv meddelande här!</span></h3>
 <!--v2-->
 <div class="ram">
-<form method="post" action="email.php">
+<form method="post" action="">
   <div class="till"><label for="till">Till:</label><input type="text" id="till" name="till" style="min-width:12.5rem;"  value="benjawan.janngam@edu.alleskolan.eu" disabled></div><br>
-<div class="from"><label for="from"> Ditt epost:</label><input type="text" id="from" name="from"></div><br>
-<div class="subject"><label for="subjext"> Rubrik:</label><input type="text" id="subject" name="subject"></div><br>
+<div class="from"><label for="from"> Epost:</label><input type="text" id="from" name="from" style="min-width:12.5rem;"></div><br>
+<div class="subject"><label for="subjext"> Rubrik:</label><input type="text" id="subject" name="subject" style="min-width:12.5rem;"></div><br>
 
 
   <textarea name="message" type="text" id="frågor"  style="height:13rem;" placeholder="Skriv dina frågor här...|"></textarea>
@@ -61,26 +61,9 @@
 </div>
 </section>
 
-<<<<<<< Updated upstream
-=======
+<?php
+require_once('email.php');
+?>
 
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCT-SR-Uukic-BqnIIUi0S5yr37G7RYSi0",
-  authDomain: "card-is-card.firebaseapp.com",
-  projectId: "card-is-card",
-  storageBucket: "card-is-card.appspot.com",
-  messagingSenderId: "561930379827",
-  appId: "1:561930379827:web:9ba4e3c5472d965d9d3946"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
->>>>>>> Stashed changes
 </body>
 </html>
