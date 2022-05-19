@@ -1,7 +1,3 @@
-
-<!--<link rel="stylesheet" href="../css/prislista.min.css">-->
-
-
 <section id="priss">
   <div class="goldbandContainer">
     <div id="goldband"></div>

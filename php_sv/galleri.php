@@ -1,6 +1,7 @@
 <section id="gals">
 
-
+<!--Två funktioner för att visa mer av galleriet och att minska antalet bilder samt vissas Dekorationerna ovan och under-->
+<!--Beroende på storleken på skärmen så vissas fyra och sex bilder-->
 
 <script type="text/javascript">
 function show()
@@ -43,6 +44,8 @@ function hide() {
 
 
 <div class="firstpics">
+
+<!--Har två Navbars som vissas beroende på om det är Mobil version eller PC-->
 
   <img class="pics" src="../img/room1.1.jpg" alt="room">
   <img class="pics" src="../img/room2.2.jpg" alt="room">

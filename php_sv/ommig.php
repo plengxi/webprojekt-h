@@ -1,8 +1,5 @@
 <section id="ommigs">
 
-
-<!--<link rel="stylesheet" href="../css/ommig.min.css">-->
-
 <div class="ommig">
   <div class="flowersContainer">
     <img class="flower" src="../svg/flower1.svg" alt="flowers">

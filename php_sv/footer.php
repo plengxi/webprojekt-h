@@ -1,4 +1,4 @@
-  <!--<link rel="stylesheet" href="../css/footer.min.css">-->
+
 <section id="topkon">
 
 

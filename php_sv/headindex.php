@@ -2,8 +2,6 @@
 
   <section id="heas">
 
-<!--  <link rel="stylesheet" href="../css/headindex.min.css">-->
-
   <script type="text/javascript">
 
   function topFunction() {

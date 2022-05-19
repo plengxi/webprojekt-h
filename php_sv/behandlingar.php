@@ -1,5 +1,3 @@
-<!-- <link rel="stylesheet" href="../css/behandlingar.min.css"> -->
-
 <section id="behs">
 
 
